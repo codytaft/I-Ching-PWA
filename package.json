@@ -1,0 +1,22 @@
+{
+  "name": "i-ching",
+  "version": "1.0.0",
+  "description": "An app to cast I-Ching",
+  "main": "serviceWorker.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codytaft/I-Ching.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codytaft/I-Ching/issues"
+  },
+  "homepage": "https://github.com/codytaft/I-Ching#readme",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
