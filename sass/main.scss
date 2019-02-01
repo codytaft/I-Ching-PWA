@@ -9,40 +9,72 @@
   box-sizing: inherit; }
 
 html {
-  font-size: 61.5%; }
+  font-size: 61.5%; 
+}
 
 body {
+  font-family: 'Open Sans Condensed', sans-serif;
   box-sizing: border-box; 
-  background-color: black;
   color: whitesmoke
 }
 
+main {
+  background-image: linear-gradient(to bottom, $color-primary-medium, $color-primary-dark);
+  height: 100vh;
+}
+
+.header {
+  border-bottom: 1px solid $color-white;
+  width: 80%;
+  margin: 0 auto
+}
+
 h1 {
+  font-weight: 300;
+  font-size: 5rem;
   text-align: center;
   padding: 1rem 0;
 }
 
-.header {
-  height: 2rem;
+input {
+  padding:.3rem;
+  font-size: 2rem;
+  font-weight: 300;
+  color:$color-primary-dark;
+  display: block;
+  margin: 1rem auto;
+  background: none;
+  border-radius: 3px;
+  border: 1px solid $color-primary-dark;
+
+  &::placeholder {
+    color: $color-white
+
+  }
 }
 
 #Hexagram {
   text-align: center;
   font-size: 2rem;
   padding-bottom: 1rem;
-  color: whitesmoke
+  color: $color-white
 }
 
-.cast {
-  font-size: 1.5rem;
+.cast-btn {
+  font-weight: 300;
+  font-size: 2.5rem;
   display: block;
-  width:12rem;
+  width: 20rem;
   padding:.4rem;
   margin: auto auto;
   border: 1px solid whitesmoke;
   background: none;
   border-radius: 3rem;
   align-content: center;
-  color: whitesmoke
+  color: whitesmoke;
+
+  &:focus {
+    outline: none
+  }
 
 }
