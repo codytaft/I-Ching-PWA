@@ -38,13 +38,12 @@ h1 {
 }
 
 input {
+  display: block;
   padding: 1rem;
+  margin: 2rem auto;
+  color: $color-white;
   font-size: 1.6rem;
   font-weight: 300;
-  color:$color-white;
-  display: block;
-  margin: 1rem auto;
-  background: none;
   border-radius: 3px;
   border: 1px solid $color-white;
 
@@ -79,7 +78,7 @@ input {
   padding: 1rem;
   margin: auto auto;
   border: 1px solid whitesmoke;
-  background: none;
+  background-color: $color-primary;
   border-radius: 3px;
   color: whitesmoke;
   
