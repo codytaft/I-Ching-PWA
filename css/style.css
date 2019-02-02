@@ -65,15 +65,15 @@ input {
   font-size: 1.6rem;
   width: 19rem;
   padding: 1rem;
-  margin: auto auto;
+  margin: 1rem auto;
   border: 1px solid whitesmoke;
   background-color: #6b98bf;
   border-radius: 3px;
-  color: whitesmoke; }
+  color: whitesmoke;
+  box-shadow: 0 1rem 2rem rgba(2, 21, 38, 0.2); }
   .cast-btn:hover {
     cursor: pointer;
-    transform: translateY(-2px);
-    box-shadow: 0 1rem 2rem rgba(2, 21, 38, 0.2); }
+    transform: translateY(-2px); }
   .cast-btn::after {
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0; }
