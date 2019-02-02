@@ -30,13 +30,12 @@ h1 {
   padding: 1rem 0; }
 
 input {
+  display: block;
   padding: 1rem;
+  margin: 2rem auto;
+  color: whitesmoke;
   font-size: 1.6rem;
   font-weight: 300;
-  color: whitesmoke;
-  display: block;
-  margin: 1rem auto;
-  background: none;
   border-radius: 3px;
   border: 1px solid whitesmoke; }
   input::placeholder {
@@ -63,7 +62,7 @@ input {
   padding: 1rem;
   margin: auto auto;
   border: 1px solid whitesmoke;
-  background: none;
+  background-color: #6b98bf;
   border-radius: 3px;
   color: whitesmoke; }
   .cast-btn:hover {
