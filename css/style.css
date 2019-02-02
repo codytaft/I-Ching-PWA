@@ -80,3 +80,15 @@ input {
     outline: none;
     transform: translateY(-1px);
     box-shadow: 0 0.5rem 1rem rgba(2, 21, 38, 0.2); }
+
+.line {
+  width: 8rem;
+  margin: 0 auto; }
+  .line.old-yang {
+    content: url(../assets/images/lines/old-yang.svg); }
+  .line.old-yin {
+    content: url(../assets/images/lines/old-yin.svg); }
+  .line.young-yang {
+    content: url(../assets/images/lines/young-yang.svg); }
+  .line.young-yin {
+    content: url(../assets/images/lines/young-yin.svg); }
