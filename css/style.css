@@ -41,7 +41,8 @@ input {
   font-size: 1.6rem;
   font-weight: 300;
   border-radius: 3px;
-  border: 1px solid whitesmoke; }
+  border: 1px solid whitesmoke;
+  width: 19rem; }
   input::placeholder {
     color: whitesmoke; }
   input, input text-area {
