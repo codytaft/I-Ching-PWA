@@ -105,3 +105,21 @@ input {
   }
 }
 
+.line {
+  width: 8rem;
+  margin: 0 auto;
+
+  &.old-yang {
+    content: url(../assets/images/lines/old-yang.svg);
+  }
+  &.old-yin {
+    content: url(../assets/images/lines/old-yin.svg);
+  }
+  &.young-yang {
+    content: url(../assets/images/lines/young-yang.svg);
+  }
+  &.young-yin {
+    content: url(../assets/images/lines/young-yin.svg);
+  }
+
+}

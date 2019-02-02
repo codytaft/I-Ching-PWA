@@ -1,16 +1,20 @@
-var Stalks = 50;
-var HandPile;
-var EastPile;
-var WestPile;
-var EastRemainder;
-var WestRemainder;
-var CountValue1;
-var CountValue2;
-var CountValue3;
-var LineValue;
-var asciipic;
+let Stalks = 50;
+let HandPile;
+let EastPile;
+let WestPile;
+let EastRemainder;
+let WestRemainder;
+let CountValue1;
+let CountValue2;
+let CountValue3;
+let LineValue;
+let drawnLine;
+let oldYang = '<div class="line old-yang"><div>';        // --- o --- changing
+let oldYin = '<div class="line old-yin"><div>';                    // --- x --- changing
+let youngYang = '<div class="line young-yang"><div>';               // ---------
+let youngYin = '<div class="line young-yin"><div>'; // ---   ---
 
-var DivideStalks = function (YarrowStalks) {
+let DivideStalks = (YarrowStalks) => {
   // Divide 49 stalks into eastpile westpile
   // Subtract one from westpile put in handpile
 
@@ -20,7 +24,7 @@ var DivideStalks = function (YarrowStalks) {
   HandPile = 1;
 }
 
-var DivideEastAndWest = function () {
+let DivideEastAndWest = function () {
   EastRemainder = (EastPile % 4);
   WestRemainder = (WestPile % 4);
   if (EastRemainder == 0) EastRemainder = 4;
@@ -30,7 +34,7 @@ var DivideEastAndWest = function () {
 
 
 }
-var LineCast = function () {
+let LineCast = () => {
   //This function creates the pictures of lines as broken or unbroken
   //and changing or unchanging 
 
@@ -103,9 +107,9 @@ var LineCast = function () {
   if (LineValue == 9) DrawLine('strong', true);
 }// End LineCast Function
 
-var DrawLine = function (line, changing) {
-  if (changing && line == 'weak') asciipic = '===&nbsp;o&nbsp;===';
-  if (changing && line == 'strong') asciipic = '====x====';
-  if (!changing && line == 'strong') asciipic = '=========';
-  if (!changing && line == 'weak') asciipic = '===&nbsp;&nbsp;&nbsp;===';
+let DrawLine = (line, changing) => {
+  if (changing && line == 'weak') drawnLine = oldYang;
+  if (changing && line == 'strong') drawnLine = oldYin;
+  if (!changing && line == 'strong') drawnLine = youngYang;
+  if (!changing && line == 'weak') drawnLine = youngYin;
 }

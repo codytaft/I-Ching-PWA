@@ -2,8 +2,8 @@ $('.cast-btn').on('click', (e) => {
   let hexagram = []
   for (let i = 0; i < 6; i++) {
     LineCast();
-    $('<code>' + asciipic + '</code><br />').hide().prependTo('#Hexagram').fadeIn("slow");
-    hexagram.push(asciipic)
+    $(drawnLine).addClass("pos" + (i + 1)).hide().prependTo('#Hexagram').fadeIn("slow");
+    hexagram.push(drawnLine)
   }
 
 });
