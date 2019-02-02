@@ -71,7 +71,7 @@ input {
   text-align: center;
   font-size: 2rem;
   padding-bottom: 1rem;
-  color: $color-white
+  color: $color-white;
 }
 
 .cast-btn {
@@ -83,16 +83,16 @@ input {
   font-size: 1.6rem;
   width: 19rem;
   padding: 1rem;
-  margin: auto auto;
+  margin: 1rem auto;
   border: 1px solid whitesmoke;
   background-color: $color-primary;
   border-radius: 3px;
   color: whitesmoke;
-  
+  box-shadow: 0 1rem 2rem rgba($color-black, .2);
+
   &:hover {
     cursor: pointer;
     transform: translateY(-2px);
-    box-shadow: 0 1rem 2rem rgba($color-black, .2);
   }
   &::after {
     transform: scaleX(1.4) scaleY(1.6);
@@ -105,3 +105,4 @@ input {
     box-shadow: 0 .5rem 1rem rgba($color-black,.2);
   }
 }
+
