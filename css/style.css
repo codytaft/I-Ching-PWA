@@ -36,7 +36,7 @@ h1 {
 input {
   display: block;
   padding: 1rem;
-  margin: 2rem auto;
+  margin: 2rem auto 1.5rem auto;
   color: whitesmoke;
   font-size: 1.6rem;
   font-weight: 300;
@@ -72,8 +72,7 @@ input {
   color: whitesmoke;
   box-shadow: 0 1rem 2rem rgba(2, 21, 38, 0.2); }
   .cast-btn:hover {
-    cursor: pointer;
-    transform: translateY(-2px); }
+    cursor: pointer; }
   .cast-btn::after {
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0; }
