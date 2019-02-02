@@ -37,6 +37,5 @@ async function networkFirst(request) {
     return await cache.match(request);
 
   }
-
 }
 
