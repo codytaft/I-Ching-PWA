@@ -1,12 +1,3 @@
-$('.cast-btn').on('click', (e) => {
-  let hexagram = []
-  for (let i = 0; i < 6; i++) {
-    LineCast();
-    $(drawnLine).addClass("pos" + (i + 1)).hide().prependTo('#Hexagram').fadeIn("slow");
-    hexagram.push(drawnLine)
-  }
-
-});
 /* eslint-env browser */
 'use strict';
 

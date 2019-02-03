@@ -67,12 +67,27 @@ input {
   }
 }
 
-#Hexagram {
-  text-align: center;
-  font-size: 2rem;
-  padding-bottom: 1rem;
-  color: $color-white;
+.hexagrams {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 4rem auto;
+  width: 30rem;
+
+  &.hexagram {
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+  }
 }
+
+.arrows {
+  font-size: 3rem;
+  font-weight: 600;
+  margin: auto 0;
+  color: whitesmoke
+}
+
 
 .cast-btn {
   text-transform: uppercase;

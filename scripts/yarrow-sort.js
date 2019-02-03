@@ -1,50 +1,50 @@
-let Stalks = 50;
-let HandPile;
-let EastPile;
-let WestPile;
-let EastRemainder;
-let WestRemainder;
-let CountValue1;
-let CountValue2;
-let CountValue3;
-let LineValue;
-let drawnLine;
+let stalks = 50;
+let handPile;
+let eastPile;
+let westPile;
+let eastRemainder;
+let westRemainder;
+let countValue1;
+let countValue2;
+let countValue3;
+let lineValue;
+let hexagramLine;
 let oldYang = '<div class="line old-yang"><div>';        // --- o --- changing
-let oldYin = '<div class="line old-yin"><div>';                    // --- x --- changing
-let youngYang = '<div class="line young-yang"><div>';               // ---------
-let youngYin = '<div class="line young-yin"><div>'; // ---   ---
+let oldYin = '<div class="line old-yin"><div>';          // --- x --- changing
+let youngYang = '<div class="line young-yang"><div>';    // ---------
+let youngYin = '<div class="line young-yin"><div>';      // ---   ---
 
-let DivideStalks = (YarrowStalks) => {
+let divideStalks = (yarrowStalks) => {
   // Divide 49 stalks into eastpile westpile
   // Subtract one from westpile put in handpile
 
-  WestPile = Math.floor((Math.random() * YarrowStalks) + 1);
-  EastPile = YarrowStalks - WestPile;
-  WestPile = WestPile - 1;
-  HandPile = 1;
+  westPile = Math.floor((Math.random() * yarrowStalks) + 1);
+  eastPile = yarrowStalks - westPile;
+  westPile = westPile - 1;
+  handPile = 1;
 }
 
-let DivideEastAndWest = function () {
-  EastRemainder = (EastPile % 4);
-  WestRemainder = (WestPile % 4);
-  if (EastRemainder == 0) EastRemainder = 4;
-  if (WestRemainder == 0) WestRemainder = 4;
-  HandPile = HandPile + EastRemainder + WestRemainder;
+let divideEastAndWest = function () {
+  eastRemainder = (eastPile % 4);
+  westRemainder = (westPile % 4);
+  if (eastRemainder == 0) eastRemainder = 4;
+  if (westRemainder == 0) westRemainder = 4;
+  handPile = handPile + eastRemainder + westRemainder;
 
 
 
 }
-let LineCast = () => {
+let lineCast = () => {
   //This function creates the pictures of lines as broken or unbroken
   //and changing or unchanging 
 
-  Stalks = 49; //Remove one stalk and set it aside 
+  stalks = 49; //Remove one stalk and set it aside 
 
-  DivideStalks(Stalks);
+  divideStalks(stalks);
   // Divide 49 Yarrow stalks into two piles at random: East and West
   // Subtract a single stalk from the West and put it in your hand 
   // between thumb and pointer finger 
-  DivideEastAndWest();
+  divideEastAndWest();
   // Pick up stalks from the West pile in sets of 4 and set aside
   // until 4 or fewer stalks remain
   // Put those 4 or fewer stalks between your pointer and ring fingers
@@ -54,14 +54,14 @@ let LineCast = () => {
   // Remainder will always be 9 or 5 (1+x+x where x is 0-4)
   // If 9 stalks remain an arbitrary value of 2 was assigned to this step
   // If 5 stalks remain an arbitrary value of 3 was assigned.
-  if (EastRemainder + WestRemainder + 1 == 9) CountValue1 = 2;
-  if (EastRemainder + WestRemainder + 1 == 5) CountValue1 = 3;
-  Stalks = Stalks - HandPile;
+  if (eastRemainder + westRemainder + 1 == 9) countValue1 = 2;
+  if (eastRemainder + westRemainder + 1 == 5) countValue1 = 3;
+  stalks = stalks - handPile;
   // Remove stalks from you hand and set aside.
-  DivideStalks(Stalks);
+  divideStalks(stalks);
   // Now divide the pile of stalks before you into two piles again
   // And remove one from the West pile.
-  DivideEastAndWest();
+  divideEastAndWest();
   // And sort each pile again by sets of four stalks
   // Until 4 or fewer remain, place those remainder stalks in your hand 
   // As your stalks are now 49-9 = 40 or 49-5 = 44, minus 
@@ -76,24 +76,24 @@ let LineCast = () => {
   // by 4)
   // If 8 stalks are in your hand, the arbitrary counting value is assigned 2
   // If 4 stalks, the counting value is assigned 3
-  if (EastRemainder + WestRemainder + 1 == 8) CountValue2 = 2;
-  if (EastRemainder + WestRemainder + 1 == 4) CountValue2 = 3;
-  Stalks = Stalks - HandPile;
+  if (eastRemainder + westRemainder + 1 == 8) countValue2 = 2;
+  if (eastRemainder + westRemainder + 1 == 4) countValue2 = 3;
+  stalks = stalks - handPile;
   // For the third and final time for this line, 
   // you set aside the 8 or 4 stalks in your HandPile
-  DivideStalks(Stalks);
+  divideStalks(stalks);
   // You now have 35, 31, or 39 stalks before you
   // Divide them into East and West piles for a third time
-  DivideEastAndWest();
+  divideEastAndWest();
   // Remove one from the west pile again
   // and repeat the removal of 4 stalks from each pile
   // the possible outcomes are again 8 or 4
   // and the same arbitrary count value is assigned as
   // in the last step: an 8 means that value = 2 and a 4 means 
   // it is assigned a 3.
-  if (EastRemainder + WestRemainder + 1 == 8) CountValue3 = 2;
-  if (EastRemainder + WestRemainder + 1 == 4) CountValue3 = 3;
-  LineValue = CountValue1 + CountValue2 + CountValue3;
+  if (eastRemainder + westRemainder + 1 == 8) countValue3 = 2;
+  if (eastRemainder + westRemainder + 1 == 4) countValue3 = 3;
+  lineValue = countValue1 + countValue2 + countValue3;
   // You now have 3 counting values of 2 or 3 which you
   // add together. 
   // the results determine the nature of this single line:
@@ -101,15 +101,15 @@ let LineCast = () => {
   // If 8 Line = yielding
   // if 9 Line = strong but Changing
   // if 6 Line = yielding but Changing
-  if (LineValue == 6) DrawLine('weak', true);
-  if (LineValue == 7) DrawLine('strong', false);
-  if (LineValue == 8) DrawLine('weak', false);
-  if (LineValue == 9) DrawLine('strong', true);
+  if (lineValue == 6) drawLine('weak', true);
+  if (lineValue == 7) drawLine('strong', false);
+  if (lineValue == 8) drawLine('weak', false);
+  if (lineValue == 9) drawLine('strong', true);
 }// End LineCast Function
 
-let DrawLine = (line, changing) => {
-  if (changing && line == 'weak') drawnLine = oldYang;
-  if (changing && line == 'strong') drawnLine = oldYin;
-  if (!changing && line == 'strong') drawnLine = youngYang;
-  if (!changing && line == 'weak') drawnLine = youngYin;
+let drawLine = (line, changing) => {
+  if (changing && line == 'weak') hexagramLine = oldYang;
+  if (changing && line == 'strong') hexagramLine = oldYin;
+  if (!changing && line == 'strong') hexagramLine = youngYang;
+  if (!changing && line == 'weak') hexagramLine = youngYin;
 }

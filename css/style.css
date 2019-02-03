@@ -50,10 +50,21 @@ input {
   input:focus {
     outline: none; }
 
-#Hexagram {
-  text-align: center;
-  font-size: 2rem;
-  padding-bottom: 1rem;
+.hexagrams {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 4rem auto;
+  width: 30rem; }
+  .hexagrams.hexagram {
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 1rem; }
+
+.arrows {
+  font-size: 3rem;
+  font-weight: 600;
+  margin: auto 0;
   color: whitesmoke; }
 
 .cast-btn {
