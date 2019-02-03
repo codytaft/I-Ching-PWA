@@ -1,5 +1,6 @@
 $('.hexagrams').hide()
 $('.cast-btn').on('click', (e) => {
+  $('.cast-btn').attr('disabled', 'disabled')
   $('.hexagrams').hide().show()
   let hexagram = [];
   for (let i = 0; i < 6; i++) {
@@ -8,6 +9,7 @@ $('.cast-btn').on('click', (e) => {
     hexagram.push(hexagramLine)
   }
   changeHexagram(hexagram)
+
 });
 
 changeHexagram = (hexagram) => {
@@ -16,6 +18,7 @@ changeHexagram = (hexagram) => {
   hexagram.forEach((line, i) => {
     let changedLine = line.replace(/old-yin/gi, 'young-yang').replace(/old-yang/gi, 'young-yin')
     changedHexagram.push(changedLine)
+
     if (hexagram[i] != changedHexagram[i]) {
       noChange = false
     }
