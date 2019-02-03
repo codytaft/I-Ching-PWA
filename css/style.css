@@ -59,7 +59,12 @@ input {
   .hexagrams.hexagram {
     text-align: center;
     font-size: 2rem;
-    padding-bottom: 1rem; }
+    padding-bottom: 1rem;
+    margin: 0 auto; }
+
+.hexNum,
+.hexName {
+  text-align: center; }
 
 .arrows {
   font-size: 3rem;
