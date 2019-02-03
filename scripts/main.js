@@ -2,7 +2,7 @@ $('.cast-btn').on('click', (e) => {
   let hexagram = [];
   for (let i = 0; i < 6; i++) {
     LineCast();
-    $(drawnLine).addClass("pos" + (i + 1)).hide().prependTo('.hexagram').fadeIn("slow");
+    $(drawnLine).addClass("pos" + (i + 1)).hide().prependTo('.hexagram').fadeIn(4000);
     hexagram.push(drawnLine)
   }
   changeHexagram(hexagram)
@@ -25,8 +25,10 @@ changeHexagram = (hexagram) => {
 }
 
 addChangedHexagram = (changedHexagram) => {
+  $('.arrows').toggle()
+  $('.changedHexagram').toggle()
   changedHexagram.forEach((line, i) => {
-    $(line).addClass("pos" + (i + 1)).hide().prependTo('.changedHexagram').fadeIn("slow");
+    $(line).addClass("pos" + (i + 1)).hide().prependTo('.changedHexagram').fadeIn(4000);
   })
 }
 
