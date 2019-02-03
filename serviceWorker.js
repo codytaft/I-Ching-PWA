@@ -3,7 +3,8 @@ const staticAssets = [
   './assets/lines/',
   './css/style.css',
   './scripts/main.js',
-  './scripts/yarrow-sort.js'
+  './scripts/yarrow-sort.js',
+  './scripts/display-hexagrams.js'
 ];
 
 self.addEventListener('install', async event => {
