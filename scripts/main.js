@@ -1,12 +1,35 @@
 $('.cast-btn').on('click', (e) => {
-  let hexagram = []
+  let hexagram = [];
   for (let i = 0; i < 6; i++) {
     LineCast();
-    $(drawnLine).addClass("pos" + (i + 1)).hide().prependTo('#Hexagram').fadeIn("slow");
+    $(drawnLine).addClass("pos" + (i + 1)).hide().prependTo('.hexagram').fadeIn("slow");
     hexagram.push(drawnLine)
   }
-
+  changeHexagram(hexagram)
 });
+
+changeHexagram = (hexagram) => {
+  let changedHexagram = [];
+  let noChange = true
+  hexagram.forEach((line, i) => {
+    let changedLine = line.replace(/old-yin/gi, 'young-yang').replace(/old-yang/gi, 'young-yin')
+    changedHexagram.push(changedLine)
+    if (hexagram[i] != changedHexagram[i]) {
+      noChange = false
+    }
+  })
+
+  if (!noChange) {
+    addChangedHexagram(changedHexagram)
+  }
+}
+
+addChangedHexagram = (changedHexagram) => {
+  changedHexagram.forEach((line, i) => {
+    $(line).addClass("pos" + (i + 1)).hide().prependTo('.changedHexagram').fadeIn("slow");
+  })
+}
+
 /* eslint-env browser */
 'use strict';
 
