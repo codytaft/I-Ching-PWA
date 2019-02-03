@@ -91,6 +91,8 @@ input {
     outline: none;
     transform: translateY(-1px);
     box-shadow: 0 0.5rem 1rem rgba(2, 21, 38, 0.2); }
+  .cast-btn:disabled {
+    color: grey; }
 
 .line {
   width: 8rem;
