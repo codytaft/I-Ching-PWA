@@ -55,7 +55,7 @@ input {
   flex-direction: row;
   justify-content: space-around;
   margin: 4rem auto;
-  width: 30rem; }
+  width: auto; }
   .hexagrams.hexagram {
     text-align: center;
     font-size: 2rem;
