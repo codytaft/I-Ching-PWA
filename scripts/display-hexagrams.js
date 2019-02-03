@@ -57,7 +57,7 @@ displayHexagrams = (hexagram, changedHexagram) => {
       $(line).addClass("pos" + (i + 1)).hide().prependTo('.hexagram').fadeIn(3000);
     }
     if (i === 6) {
-      $(`<div>${line.hexagramName} ${line.hexagramDescription}</div>`).addClass('hexName').hide().prependTo('.hexagram').fadeIn(3000)
+      $(`<div>${line.hexagramName}</div><div>${line.hexagramDescription}</div>`).addClass('hexName').hide().prependTo('.hexagram').fadeIn(3000)
       $(`<div>${line.hexagramNumber}</div>`).addClass('hexNum').hide().prependTo('.hexagram').fadeIn(3000)
     }
   })
@@ -70,7 +70,7 @@ displayHexagrams = (hexagram, changedHexagram) => {
         $(line).addClass("pos" + (i + 1)).hide().prependTo('.changedHexagram').fadeIn(3000);
       }
       if (i === 6) {
-        $(`<div>${line.hexagramName} ${line.hexagramDescription}</div>`).addClass('hexName').hide().prependTo('.changedHexagram').fadeIn(3000)
+        $(`<div>${line.hexagramName}</div><div>${line.hexagramDescription}</div>`).addClass('hexName').hide().prependTo('.changedHexagram').fadeIn(3000)
         $(`<div>${line.hexagramNumber}</div>`).addClass('hexNum').hide().prependTo('.changedHexagram').fadeIn(3000)
       }
     })
