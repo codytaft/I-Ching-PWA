@@ -1,6 +1,3 @@
-
-
-
 let hexagram = [];
 let changedHexagram = [];
 
@@ -28,18 +25,15 @@ changeHexagram = async (hexagram) => {
     if (i < 6) {
       let changedLine = line.replace(/old-yin/gi, 'young-yang').replace(/old-yang/gi, 'young-yin')
       changedHexagram.push(changedLine)
+
+      // CHECK FOR CHANGES IN HEXAGRAMS
+      if (hexagram[i] != changedHexagram[i]) {
+        noChange = false
+      }
     }
 
-    console.log(changedHexagram)
-    // DETECT CHANGE IN HEXAGRAM
-    if (hexagram[i] != changedHexagram[i]) {
-      noChange = false
-    }
   })
 
-  // GET HEXAGRAM NAME
-
-  // ADD HEXAGRAM NAME TO ARRAY
 
   // DISPLAY HEXAGRAM OR HEXAGRAMS
   if (!noChange) {
@@ -61,7 +55,6 @@ displayHexagrams = (hexagram, changedHexagram) => {
       $(`<div>${line.hexagramNumber}</div>`).addClass('hexNum').hide().prependTo('.hexagram').fadeIn(3000)
     }
   })
-
   if (changedHexagram) {
     $('.changedHexagram').toggle()
     $('.arrows').hide().fadeIn(3000)
