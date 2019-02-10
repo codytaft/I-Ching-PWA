@@ -741,6 +741,10 @@
         {
           "poem": "Six in the fifth place means:\nNo boasting of wealth before one's neighbor. \nIt is favorable to attack with force.\nNothing that would not further.",
           "expl": "Modesty is not to be confused with weak good nature that lets things take their own course. When a man holds a responsible position, he must at times resort to energetic measures. In doing so he must not try to make an impression by boasting of his superiority but must make certain of the people around him. The measures taken should be purely objective and in no way personally offensive. Thus modesty manifests itself even in severity."
+        },
+        {
+          "poem": "Six at the top means:\nModesty that comes to expression.\nIt is favorable to set armies marching\nTo chastise one’s own city and one’s country.",
+          "expl": "A person who is really sincere in his modesty must make it show in reality. He must proceed with great energy in this. When enmity arises nothing is easier than to lay the blame on another. A weak man takes offense perhaps, and draws back, feeling self–pity; he thinks that it is modesty that keeps him from defending himself. Genuine modesty sets one to creating order and inspires one to begin by disciplining one’s own ego and one’s immediate circle. Only through having the courage to marshal one’s armies against oneself, will something forceful really be achieved."
         }
       ]
     }
@@ -789,8 +793,8 @@
           "expl": "Here enthusiasm is obstructed. A man is under constant pressure, which prevents him from breathing freely. However, this pressure has its advantage—it prevents him from consuming his powers in empty enthusiasm. Thus constant pressure can actually serve to keep one alive."
         },
         {
-          "poem": "Six at the top means:\nDeludeed enthusiasm.\nBut if after completion one changes,\nThere is no blame.",
-          "expl": "It is a bad thing for a man to let himself be deluded by enthusiasm.  But if this delusion has run its course, and he is still capable of changing, he is freed of error. A sober awakening from false enthusiasm is quite possible and very favorable."
+          "poem": "Six at the top means:\nDeluded enthusiasm.\nBut if after completion one changes,\nThere is no blame.",
+          "expl": "It is a bad thing for a man to let himself be deluded by enthusiasm. But if this delusion has run its course, and he is still capable of changing, he is freed of error. A sober awakening from false enthusiasm is quite possible and very favorable."
         }
       ]
     }
@@ -819,7 +823,7 @@
       },
       "lines": [
         {
-          "poem": "Nine at the beginning means:\nThe standard is changing.\nPerseverance brings good fortune.\nTo go out of the door in company\nProduces deeds.",
+          "poem": "°Nine at the beginning means:\nThe standard is changing.\nPerseverance brings good fortune.\nTo go out of the door in company\nProduces deeds.",
           "expl": "There are exceptional conditions in which the relation between leader and followers changes. It is implicit in the idea of following and adaptation that if one wants to lead others, one must remain accessible and responsive to the views of those under him. At the same time, however, he must have firm principles, so that he does not vacillate where there is only a question of current opinion. Once we are ready to listen to the opinions of others, we must not associate exclusively with people who share our views or with members of our own party; instead, we must go out and mingle freely with all sorts of people, friends or foes. That is the only way to achieve something."
         },
         {
@@ -837,6 +841,10 @@
         {
           "poem": "°Nine in the fifth place means:\nSincere in the good. Good fortune.",
           "expl": "Every man must have something he follows—something that serves him as a lodestar. He who follows with conviction the beautiful and the good may feel himself strengthened by this saying."
+        },
+        {
+          "poem": "Six at the top means:\nHe meets with firm allegiance\nAnd is still further bound.\nThe king introduces him\nTo the Western Mountain.",
+          "expl": "This refers to a man, an exalted sage, who has already put the turmoil of the world behind him. But a follower appears who understands him and is not to be put off. So the sage comes back into the world and aids the other in his work. Thus there develops an eternal tie between the two.\nThe allegory is chosen from the annals of the Chou dynasty. The rulers of this dynasty honored men who had served them well by awarding them a place in the royal family’s temple of ancestors on the Western Mountain. In this way they were regarded as sharing in the destiny of the ruling family."
         }
       ]
     }
@@ -866,7 +874,27 @@
       "lines": [
         {
           "poem": "Six in the beginning means:\nSetting right what has been spoiled by the father.\nIf there is a son, \nNo blame rests upon the departed father. \nDanger. In the end good fortune.",
-          "expl": "Rigid adherence to tradition has resulted in decay. But the decay has not yet penetrated deeply and so can still be easily remedied. It is as if a son were compensated for the decay his father allowed to creep in. Then no blame attaches to the father. However, one must not overlook the danger or take the matter too lightly. Only if one is conscious of the danger connected with every reform will everything go well in the end. \tNine in the second place means:\tSetting right what has been spoiled by the mother.\tOne must not be too persevering.\tThis refers to mistakes that as a result of weakness have brought about decay-hence the symbol, \"what has been spoiled by the mother. \" In setting things right in such a case, a certain gentle consideration is called for. In order not to wound, one should not attempt to proceed too drastically. \t\tNine in the third place means:\tSetting right what has been spoiled by the father.\tThere will be a little remorse. No great blame.This describes a man who proceeds a little too energetically in righting the mistakes of the past. Now and then, as a result, minor discourse and annoyances will surely develop. But too much energy is better than too little. Therefore, although he may at times have slight cause for regret, he remains free of any serious blame. \tSix in the fourth place means:\tTolerating what has been spoiled by the father.\tIn continuing one sees humiliation.\tThis shows the situation of someone too weak to take measures against decay that has its roots in the past and is just beginning to manifest itself. It is allowed to run its course. If this continues, humiliation will result. \tSix in the fifth place means:\tSetting right what has been spoiled by the father.\tOne meets with praise.An individual is confronted with corruption originating from neglect in former times. He lacks the power to ward it off alone, but with able helpers he can at least bring about a thorough reform, if he cannot create a new beginning, and this also is praiseworthy."
+          "expl": "Rigid adherence to tradition has resulted in decay. But the decay has not yet penetrated deeply and so can still be easily remedied. It is as if a son were compensating for the decay his father allowed to creep in. Then no blame attaches to the father. However, one must not overlook the danger or take the matter too lightly. Only if one is conscious of the danger connected with every reform will everything go well in the end."
+        },
+        {
+          "poem": "Nine in the second place means:\nSetting right what has been spoiled by the mother.\nOne must not be too persevering.",
+          "expl": "This refers to mistakes that as a result of weakness have brought about decay—hence the symbol, “what has been spoiled by the mother.” In setting things right in such a case, a certain gentle consideration is called for. In order not to wound, one should not attempt to proceed too drastically."
+        },
+        {
+          "poem": "Nine in the third place means:\nSetting right what has been spoiled by the father.\nThere will be a little remorse. No great blame.",
+          "expl": "This describes a man who proceeds a little too energetically in righting the mistakes of the past. Now and then, as a result, minor discords and annoyances will surely develop. But too much energy is better than too little. Therefore, although he may at times have slight cause for regret, he remains free of any serious blame."
+        },
+        {
+          "poem": "Six in the fourth place means:\nTolerating what has been spoiled by the father.\nIn continuing one sees humiliation.",
+          "expl": "This shows the situation of someone too weak to take measures against decay that has its roots in the past and is just beginning to manifest itself. It is allowed to run its course. If this continues, humiliation will result."
+        },
+        {
+          "poem": "Six in the fifth place means:\nSetting right what has been spoiled by the father.\nOne meets with praise.",
+          "expl": "An individual is confronted with corruption originating from neglect in former times. He lacks the power to ward it off alone, but with able helpers he can at least bring about a thorough reform, if he cannot create a new beginning, and this also is praiseworthy."
+        },
+        {
+          "poem": "Nine at the top means:\nHe does not serve kings and princes,\nSets himself higher goals.",
+          "expl": "Not every man has an obligation to mingle in the affairs of the world. There are some who are developed to such a degree that they are justified in letting the world go its own way and in refusing to enter public life with a view to reforming it. But this does not imply a right to remain idle or to sit back and merely criticize. Such withdrawal is justified only when we strive to realize in ourselves the higher aims of mankind. For although the sage remains distant from the turmoil of daily life, he creates incomparable human values for the future."
         }
       ]
     }
@@ -908,7 +936,15 @@
         },
         {
           "poem": "Six in the fourth place means:\nComplete approach.\nNo blame.",
-          "expl": "\tWhile the three lower lines indicate rise to power and influence, the three upper lines show the attitude of persons in higher position toward those of lower rank for whom they procure influence. Here is shown the open-minded approach of a person of high rank to a man of ability whom he draws in to his own circle, regardless of class prejudice. This is very favorable. \t \tSix in the fifth place means:\tWise approach.\tThis is right for a great prince.\tGood fortune.A prince, or anyone in a leading position, must have the wisdom to attract to himself people of ability who are expert in directing affairs. His wisdom consists both in selecting the right people and in allowing those chosen to have a free hand without interference from him.  For only through such self-restraint will he find the experts needed to satisfy all of his requirements."
+          "expl": "While the three lower lines indicate rise to power and influence, the three upper lines show the attitude of persons in higher position toward those of lower rank for whom they procure influence. Here is shown the open–minded approach of a person of high rank to a man of ability whom he draws in to his own circle, regardless of class prejudice. This is very favorable."
+        },
+        {
+          "poem": "Six in the fifth place means:\nWise approach.\nThis is right for a great prince.\nGood fortune.",
+          "expl": "A prince, or anyone in a leading position, must have the wisdom to attract to himself people of ability who are expert in directing affairs. His wisdom consists both in selecting the right people and in allowing those chosen to have a free hand without interference from him. For only through such self–restraint will he find the experts needed to satisfy all of his requirements."
+        },
+        {
+          "poem": "Six at the top means:\nGreat hearted approach.\nGood fortune. No blame.",
+          "expl": "A sage who has put the world behind him and who in spirit has already withdrawn from life may, under certain circumstances, decide to return once more to the here and now and to approach other men. This means great good fortune for the men whom he teaches and helps. And for him this great hearted humbling of himself is blameless."
         }
       ]
     }
@@ -951,6 +987,14 @@
         {
           "poem": "Six in the fourth place means:\nContemplation of the light of the kingdom.\nIt furthers one to exert influence as the guest of a king.",
           "expl": "This describes a man who understands the secrets by which a kingdom can be made to flourish. Such a man must be given an authoritative position, in which he can exert influence. He should be, so to speak, a guest-that is, he should be honored and act independently, and should not be used as a tool."
+        },
+        {
+          "poem": "Nine in the fifth place means:\nContemplation of my life.\nThe superior man is without blame.",
+          "expl": "A man in an authoritative position to whom others look up must always be ready for self–examination. The right sort of self–examination, however, consists not in idle brooding over oneself but in examining the effects one produces. Only when these effects are good, and when one’s influence on others is good, will the contemplation of one’s own life bring the satisfaction of knowing oneself to be free of mistakes."
+        },
+        {
+          "poem": "Nine at the top means:\nContemplation of his life.\nThe superior man is without blame.",
+          "expl": "While the preceding line represents a man who contemplates himself, here in the highest place everything that is personal, related to the ego, is excluded. The picture is that of a sage who stands outside the affairs of the world. Liberated from his ego, he contemplates the laws of life and so realizes that knowing how to become free of blame is the highest good."
         }
       ]
     }
@@ -984,11 +1028,23 @@
         },
         {
           "poem": "Six  in the second place means:\nBites through tender meat,\nSo that his nose disappears.\nNo blame.",
-          "expl": "It is easy to discriminate between right and wrong in this case;it is like biting through tender meat. But one encounters ahardened sinner, and, aroused by anger, one goes a little toofar. The disappearance of the nose in the course of the bitesignifies that indignation blots out finer sensibility. However,there is no great harm in this, because the penalty as such isjust.\t\tSix  in the third place means:\tBites on old dried meat \tAnd strikes on something poisonous.\tSlight humiliation.  No blame.Punishment is to be carried out by someone who lacks the power and authority to do so.  Therefore the culprits do not submit.  The matter at issue is an old one-as symbolized by salted game-and in dealing with it difficulties arise.  This old meat is spoiled: by taking up the problem the punisher arouses poisonous hatred against himself, and n this way is put in a somewhat humiliating position.  But since punishment was required by the time, he remains free of blame.\t\tNine in the fourth place means:\tBites on dried gristly meat.\tReceives metal arrows.\tIt furthers one to be mindful of difficulties\tAnd to be persevering.\tGood fortune. There are great obstacles to be overcome, powerful opponents are to be punished. Though this is arduous, the effort succeeds. But it is necessary to be hard as metal and straight as an arrow to surmount the difficulties. If one knows these difficulties and remains persevering, he attains good fortune. The difficult task is achieved in the end."
+          "expl": "It is easy to discriminate between right and wrong in this case; it is like biting through tender meat. But one encounters a hardened sinner, and, aroused by anger, one goes a little too far. The disappearance of the nose in the course of the bite signifies that indignation blots out finer sensibility. However, there is no great harm in this, because the penalty as such is just."
+        },
+        {
+          "poem": "Six  in the third place means:\nBites on old dried meat\nAnd strikes on something poisonous.\nSlight humiliation. No blame.",
+          "expl": "Punishment is to be carried out by someone who lacks the power and authority to do so. Therefore the culprits do not submit. The matter at issue is an old one—as symbolized by salted game—and in dealing with it difficulties arise. This old meat is spoiled: by taking up the problem the punisher arouses poisonous hatred against himself, and in this way is put in a somewhat humiliating position. But since punishment was required by the time, he remains free of blame."
+        },
+        {
+          "poem": "Nine in the fourth place means:\nBites on dried gristly meat.\nReceives metal arrows.\nIt furthers one to be mindful of difficulties\nAnd to be persevering.\nGood fortune.",
+          "expl": "There are great obstacles to be overcome, powerful opponents are to be punished. Though this is arduous, the effort succeeds. But it is necessary to be hard as metal and straight as an arrow to surmount the difficulties. If one knows these difficulties and remains persevering, he attains good fortune. The difficult task is achieved in the end."
         },
         {
           "poem": "Six in the fifth place means:\nBites on dried lean meat.\nReceives yellow gold.\nPerseveringly aware of danger.\nNo blame.",
-          "expl": "The case to be decided is indeed not easy but perfectly clear.  Since we naturally incline to leniency, we must make every effort to be like yellow gold-that is, as true as gold and as impartial as yellow, the color of the middle (the mean). It is only by remaining conscious of the dangers growing out of the responsibility we have assumed that we can avoid making mistakes."
+          "expl": "The case to be decided is indeed not easy but perfectly clear. Since we naturally incline to leniency, we must make every effort to be like yellow gold—that is, as true as gold and as impartial as yellow, the color of the middle [the mean]. It is only by remaining conscious of the dangers growing out of the responsibility we have assumed that we can avoid making mistakes."
+        },
+        {
+          "poem": "Nine at the top means:\nHis neck is fastened in the wooden cangue,\nSo that his ears disappear.\nMisfortune.",
+          "expl": "In contrast to the first line, this line refers to a man who is incorrigible. His punishment is the wooden cangue, and his ears disappear under it—that is to say, he is deaf to warnings. This obstinacy leads to misfortune."
         }
       ]
     }
@@ -1035,6 +1091,10 @@
         {
           "poem": "Six in the fifth place means:\nGrace in the hills and gardens.\nThe roll of silk is meager and small.\nHumiliation, but in the end good fortune.",
           "expl": "A man withdraws from contact with people of the lowlands, who seek nothing but magnificence and luxury, in to the solitude of the heights. There he finds an individual to look up to, whom he would like to have as a friend. But the gifts he has to offer are poor and few, so that he feels ashamed. However, it is not the material gifts that count, but sincerity of feeling, and so all goes well in the end."
+        },
+        {
+          "poem": "Nine at the top means:\nSimple grace. No blame.",
+          "expl": "Here at the highest stage of development all ornament is discarded. Form no longer conceals content but brings out its value to the full. Perfect grace consists not in exterior ornamentation of the substance, but in the simple fitness of its form."
         }
       ]
     }
@@ -1081,6 +1141,10 @@
         {
           "poem": "Six in the fifth place means:\nA shoal of fishes. Favor comes through the court ladies.\nEverything acts to further.",
           "expl": "Here, in immediate proximity to the strong, light-giving principle at the top, the nature of the dark force undergoes a change. It no longer opposes the strong principle by means of intrigues but submits to its guidance. Indeed, as the head of the other weak lines, it leads all of these to the strong line, just as a princess leads her maids-in-waiting like a shoal of fishes to her husband and thus gains his favor. Inasmuch as the lower element thus voluntarily places itself under the higher, it attains happiness and the higher also receives its due. Therefore all goes well."
+        },
+        {
+          "poem": "°Nine at the top means:\nThere is a large fruit still uneaten.\nThe superior man receives a carriage.\nThe house of the inferior man is split apart.",
+          "expl": "Here the splitting apart reaches its end. When misfortune has spent itself, better times return. The seed of the good remains, and it is just when the fruit falls to the ground that good sprouts anew from its seed. The superior man again attains influence and effectiveness. He is supported by public opinion as if in a carriage. But the inferior man’s wickedness is visited upon himself. His house is split apart. A law of nature is at work here. Evil is not destructive to the good alone but inevitably destroys itself as well. For evil, which lives solely by negation, cannot continue to exist on its own strength alone. The inferior man himself fares best when held under control by a superior man."
         }
       ]
     }
@@ -1122,7 +1186,15 @@
         },
         {
           "poem": "Six in the fourth place means:\nWalking in the midst of others,\nOne returns alone.",
-          "expl": "A man is in a society composed of inferior people, but is connected spiritually with a strong and good friend, and this makes him turn back alone. Although nothing is said of reward and punishment, this return is certainly favorable, for such a resolve to choose the good brings its own reward. \t\t\tSix in the fifth place means:\tNoblehearted return. No remorse.When the time for return has come, a man should not take shelter in trivial excuses, but should look within and examine himself. And if he has done something wrong he should make a noblehearted resolve to confess his fault. No one will regret having taken this road."
+          "expl": "A man is in a society composed of inferior people, but is connected spiritually with a strong and good friend, and this makes him turn back alone. Although nothing is said of reward and punishment, this return is certainly favorable, for such a resolve to choose the good brings its own reward."
+        },
+        {
+          "poem": "Six in the fifth place means:\nNoblehearted return. No remorse.",
+          "expl": "When the time for return has come, a man should not take shelter in trivial excuses, but should look within and examine himself. And if he has done something wrong he should make a noblehearted resolve to confess his fault. No one will regret having taken this road."
+        },
+        {
+          "poem": "Six at the top means:\nMissing the return. Misfortune.\nMisfortune from within and without.\nIf armies are set marching in this way,\nOne will in the end suffer a great defeat,\nDisastrous for the ruler of the country.\nFor ten years\nIt will not be possible to attack again.",
+          "expl": "If a man misses the right time for return, he meets with misfortune. The misfortune has its inner cause in a wrong attitude toward the world. The misfortune coming upon him from without results from this wrong attitude. What is pictured here is blind obstinacy and judgment that is visited upon it."
         }
       ]
     }
@@ -1169,6 +1241,10 @@
         {
           "poem": "Nine in the fifth place means:\nUse no medicine in an illness\nIncurred through no fault of your own.\nIt will pass of itself.",
           "expl": "An unexpected evil may come accidentally from without. If it does not originate in one's own nature or have a foothold there, one should not resort to external means to eradicate it, but should quietly let nature take its course. Then improvement will come of itself."
+        },
+        {
+          "poem": "Nine at the top means:\nInnocent action brings misfortune.\nNothing furthers.",
+          "expl": "When, in a given situation, the time is not ripe for further progress, the best thing to do is to wait quietly, without ulterior designs. If one acts thoughtlessly and tries to push ahead in opposition to fate, success will not be achieved."
         }
       ]
     }
@@ -1215,6 +1291,14 @@
         {
           "poem": "Six in the fifth place means:\nThe tusk of a gelded boar.\nGood fortune.",
           "expl": "Here the restraining of the impetuous forward drive is achieved in an indirect way. A boar's tusk is in itself dangerous, but if the boar's nature is altered, the tusk is no longer a menace. Thus also where men are concerned, wild force should not be combated directly; instead, its roots should be eradicated."
+        },
+        {
+          "poem": "°Six in the fifth place means:\nThe tusk of a gelded boar.\nGood fortune.",
+          "expl": "Here the restraining of the impetuous forward drive is achieved in an indirect way. A boar's tusk is in itself dangerous, but if the boar's nature is altered, the tusk is no longer a menace. Thus also where men are concerned, wild force should not be combated directly; instead, its roots should be eradicated."
+        },
+        {
+          "poem": "°Nine at the top means:\nOne attains the way of heaven. Success",
+          "expl": "The time of obstruction is past. The energy long dammed up by inhibition forces its way out and achieves great success. This refers to a man who is honored by the ruler and whose principles now prevail and shape the world."
         }
       ]
     }
@@ -1255,12 +1339,16 @@
           "expl": "\tHe who seeks nourishment that does not nourish reels from desire to gratification and in gratification craves desire. Mad pursuit of pleasure for the satisfaction of the senses never brings one to the goal. One should never (ten years is a complete cycle of time) follow this path, for nothing good can come of it."
         },
         {
-          "poem": "Six in the fourth place means:\nTurning to the summit\nFor provision of nourishment\nBrings good fortune.\nSpying about with sharp eyes\nLike a tiger with insatiable craving.\nNo blame.",
+          "poem": "°Six in the fourth place means:\nTurning to the summit\nFor provision of nourishment\nBrings good fortune.\nSpying about with sharp eyes\nLike a tiger with insatiable craving.\nNo blame.",
           "expl": "In contrast to the six in the second place, which refers to a man bent exclusively on his own advantage, this line refers to one occupying a high position and striving to let his light sine forth. To do this he needs helpers, because he cannot attain his lofty aim alone. With the greed of a hungry tiger he is on the lookout for the right people. Since he is not working for himself but for the good of all, there is no wrong in such zeal."
         },
         {
-          "poem": "Six in the fifth place means:\nTurning away from the path.\nTo remain persevering brings good fortune.\nOne should not cross the great water.",
+          "poem": "°Six in the fifth place means:\nTurning away from the path.\nTo remain persevering brings good fortune.\nOne should not cross the great water.",
           "expl": "A man may be conscious of a deficiency in himself. He should be undertaking the nourishment of the people, but he has not the strength to do it. Thus he must turn from his accustomed path and beg counsel and help from a man who is spiritually his superior but undistinguished outwardly. If he maintains this attitude of mind perseveringly, success and good fortune are his. But he must remain aware of his dependence. He must not put his own person forward nor attempt great labors, such as crossing the great water."
+        },
+        {
+          "poem": "°Nine at the top means:\nThe source of nourishment.\nAwareness of danger brings good fortune.\nIt furthers one to cross the great water.",
+          "expl": "This describes a sage of the highest order, from whom emanate all influences that provide nourishment for others. Such a position brings with it heavy responsibility. If he remains conscious of this fact, he has good fortune and may confidently undertake even great and difficult labors, such as crossing the great water. These undertakings bring general happiness for him and for all others."
         }
       ]
     }
@@ -1303,6 +1391,10 @@
         {
           "poem": "Nine in the fifth place means:\nA withered poplar puts forth flowers.\nAn older woman takes a husband. \nNo blame. No praise.",
           "expl": "A withered poplar that flowers exhausts its energies thereby and only hastens its end. An older woman may marry once more, but no renewal takes place. Everything remains barren. Thus, though all the amenities are observed, the net result is only the anomaly of the situation.  Applied to politics, the metaphor means that if in times of insecurity we give up alliance with those below us and keep up only the relationships we have with people of higher rank, an unstable situation is created."
+        },
+        {
+          "poem": "Six at the top means:\nOne must go through the water.\nIt goes over one’s head.\nMisfortune. No blame.",
+          "expl": "Here is a situation in which the unusual has reached a climax. One is courageous and wishes to accomplish one’s task, no matter what happens. This leads into danger. The water rises over one’s head. This is the misfortune. But one incurs no blame in giving up one’s life that the good and the right may prevail. There are things that are more important than life."
         }
       ]
     }
@@ -1349,6 +1441,10 @@
         {
           "poem": "Nine in the fifth place means:\nThe abyss is not filled to overflowing,\nIt is filled only to the rim.\nNo blame.",
           "expl": "Danger comes because one is too ambitious. In order to flow out of a ravine, water does not rise higher than the lowest point of the rim. So likewise a man when in danger has only to proceed along the line of least resistance; thus he reaches the goal. Great labors cannot be accomplished in such times; it is enough to get out of the danger."
+        },
+        {
+          "poem": "Six at the top means:\nBound with cords and ropes,\nShut in between thorn–hedged prison walls:\nFor three years one does not find the way.\nMisfortune.",
+          "expl": "A man who in the extremity of danger has lost the right way and is irremediably entangled in his sins has no prospect of escape. He is like a criminal who sits shackled behind thorn–hedged prison walls."
         }
       ]
     }
@@ -1391,6 +1487,14 @@
         {
           "poem": "Nine in the fourth place means:\nIts coming is sudden;\nIt flames up, dies down, is thrown away.",
           "expl": "Clarity of mind has the same relation to life that fire has to wood. Fire clings to wood, but also consumes it. Clarity of mind is rooted in life but can also consume it. Everything depends upon how the clarity functions. Here the image used is that of a meteor or a straw fire. A man who is excitable and restless may rise quickly to prominence but produces no lasting effects. Thus matters end badly when a man spends himself too rapidly and consumes himself like a meteor."
+        },
+        {
+          "poem": "Six in the fifth place means:\nTears in floods, sighing and lamenting.\nGood fortune.",
+          "expl": "Here the zenith of life has been reached. Were there no warning, one would at this point consume oneself like a flame. Instead, understanding the vanity of all things, one may put aside both hope and fear, and sigh and lament: if one is intent on retaining his clarity of mind, good fortune will come from this grief. For here we are dealing not with a passing mood, as in the nine in the third place, but with a real change of heart."
+        },
+        {
+          "poem": "Nine at the top means:\nThe king used him to march forth and chastise.\nThen it is best to kill the leaders\nAnd take captive the followers. No blame.",
+          "expl": "It is not the purpose of chastisement to impose punishment blindly but to create discipline. Evil must be cured at its roots. To eradicate evil in political life, it is best to kill the ringleaders and spare the followers. In educating oneself it is best to root out bad habits and tolerate those that are harmless. For asceticism that is too strict, like sentences of undue severity, fails in its purpose."
         }
       ]
     }
@@ -1428,15 +1532,19 @@
         },
         {
           "poem": "Nine in the third place means:\nThe influence shows itself in the thighs.\nHolds to that which follows it.\nTo continue is humiliating.",
-          "expl": "\tEvery mood of the heart influences us to movement. What the heart desires, the thighs run after without a moment's hesitation; they hold to the heart, which they follow. In the life of man, however, acting on the spur of every caprice is wrong and if continued leads to humiliation. Three considerations suggest themselves here. First, a man should not run precipitately after all the persons whom he would like to influence, but must be able to hold back under certain circumstances. As little should he yield immediately to every whim of those in whose service he stands. Finally, where the moods of his own heart are concerned, he should never ignore the possibility of inhibition, for this is the basis of human freedom."
+          "expl": "Every mood of the heart influences us to movement. What the heart desires, the thighs run after without a moment's hesitation; they hold to the heart, which they follow. In the life of man, however, acting on the spur of every caprice is wrong and if continued leads to humiliation. Three considerations suggest themselves here. First, a man should not run precipitately after all the persons whom he would like to influence, but must be able to hold back under certain circumstances. As little should he yield immediately to every whim of those in whose service he stands. Finally, where the moods of his own heart are concerned, he should never ignore the possibility of inhibition, for this is the basis of human freedom."
         },
         {
-          "poem": "Nine in the fourth place means:\nPerseverance brings good fortune.\nRemorse disappears.\nIf a man is agitated in mind,\nAnd his thoughts go hither and thither,\nOnly those friends \nOn whom he fixes his conscious thoughts\nWill follow.",
+          "poem": "°Nine in the fourth place means:\nPerseverance brings good fortune.\nRemorse disappears.\nIf a man is agitated in mind,\nAnd his thoughts go hither and thither,\nOnly those friends \nOn whom he fixes his conscious thoughts\nWill follow.",
           "expl": "Here the place of the heart is reached. The impulse that springs from this source is the most important of all. It is of particular concern that this influence be constant and good; then, in spite of the danger arising from the great susceptibility of the human heart, there will be no cause for remorse. When the quiet power of a man's own character is at work, the effects produced are right. All those who are receptive to the vibrations of such a spirit will then be influenced. Influence over others should not express itself as a conscious and willed effort to manipulate them. Through practicing such conscious incitement, one becomes wrought up and is exhausted by the eternal stress and strain. Moreover, the effects produced are then limited to those on whom one's thoughts are consciously fixed."
         },
         {
-          "poem": "Nine in the fifth place means:\nThe influence shows itself in the back of the neck.\nNo remorse.",
+          "poem": "°Nine in the fifth place means:\nThe influence shows itself in the back of the neck.\nNo remorse.",
           "expl": "The back of the neck is the most rigid part of the body. When the influence shows itself there, the will remains firm and the influence does not lead to confusion. Hence remorse does not enter into consideration here. What takes place in the depths of one's being, in the unconscious mind. It is true that if we cannot be influenced ourselves, we cannot influence the outside world."
+        },
+        {
+          "poem": "Six at the top means:\nThe influence shows itself in the jaws, cheeks, and tongue.",
+          "expl": "The most superficial way of trying to influence others is through talk that has nothing real behind it. The influence produced by such mere tongue wagging must necessarily remain insignificant. Hence no indication is added regarding good or bad fortune."
         }
       ]
     }
@@ -1483,6 +1591,10 @@
         {
           "poem": "Six in the fifth place means:\nGiving duration to one's character through perseverance.\nThis is good fortune for a woman, misfortune for a man.",
           "expl": "A woman should follow a man her whole life long, but a man should at all times hold to what is his duty at the given moment. Should he persistently seek to conform to the woman, it would be a mistake for him. Accordingly it is altogether right for a woman to hold conservatively to tradition, but a  man must always be flexible and adaptable and allow himself to be guided solely by what his duty requires of him at the moment."
+        },
+        {
+          "poem": "Six at the top means:\nRestlessness as an enduring condition brings misfortune.",
+          "expl": "There are people who live in a state of perpetual hurry without ever attaining inner composure. Restlessness not only prevents all thoroughness but actually becomes a danger if it is dominant in places of authority."
         }
       ]
     }
@@ -1515,7 +1627,7 @@
           "expl": "Since the hexagram is the picture of something that is retreating, the lowest line represents the tail and the top line the head. In a retreat it is advantageous to be at the front. Here one is at the back, in immediate contact with the pursuing enemy. This is dangerous, and under such circumstances it is not advisable to undertake anything. Keeping still is the easiest way of escaping from the threatening danger."
         },
         {
-          "poem": "Six in the second place means:\nhe holds him fast with yellow oxhide.\nNo one can tear him loose.",
+          "poem": "°Six in the second place means:\nhe holds him fast with yellow oxhide.\nNo one can tear him loose.",
           "expl": "Yellow is the color of the middle. It indicates that which is correct and in line with duty. Oxhide is strong and not to be torn.  While the superior men retreat and the inferior press after them, the inferior man represented here holds on so firmly and tightly to the superior man that the latter cannot shake him off. And because he is in quest of what is right an so strong in purpose, he reaches his goal. Thus the line confirms what is said in the Judgment: \"In what is small\" —here equivalent to \"in the inferior man\" — \"perseverance furthers.\""
         },
         {
@@ -1527,8 +1639,12 @@
           "expl": "In retreating the superior man is intent on taking his departure willingly and in all friendliness. He easily adjusts his mind to retreat, because in retreating he does not have to do violence to his convictions. The only one who suffers is the inferior man from whom he retreats, who will degenerate when deprived of the guidance of the superior man."
         },
         {
-          "poem": "Nine in the fifth place means:\nFriendly retreat. Perseverance brings good fortune.",
+          "poem": "°Nine in the fifth place means:\nFriendly retreat. Perseverance brings good fortune.",
           "expl": "It is the business of the superior man to recognize in time that the moment for retreat has come. If the right moment is chosen, the retreat can be carried out within the forms of perfect friendliness, without the necessity of disagreeable discussions. Yet, for all the observance of amenities, absolute firmness of decision is necessary if one is not to be led astray by irrelevant considerations."
+        },
+        {
+          "poem": "Nine att the top means:\nCheerful retreat. Everything serves to further.",
+          "expl": "The situation is unequivocal. Inner detachment has become an established fact, and we are at liberty to depart. When one sees the way ahead thus clearly, free of all doubt, a cheerful mood sets in, and one chooses what is right without further thought. Such a clear path ahead always leads to the good."
         }
       ]
     }
@@ -1569,12 +1685,16 @@
           "expl": "Making a boast of power leads to entanglements, just as a goat entangles its horns when it butts against a hedge. Whereas an inferior man revels in power when he comes into possession of it, the superior man never makes this mistake. He is conscious at all times of the danger of pushing ahead regardless of circumstances, and therefore renounces in good time the empty display of force."
         },
         {
-          "poem": "Nine in the fourth place means:\nPerseverance brings good fortune.\nRemorse disappears.\nThe hedge opens; there is no entanglement.\nPower depends upon the axle of a big cart.",
+          "poem": "°Nine in the fourth place means:\nPerseverance brings good fortune.\nRemorse disappears.\nThe hedge opens; there is no entanglement.\nPower depends upon the axle of a big cart.",
           "expl": "If a man goes on quietly and perseveringly working at the removal of resistances, success comes in the end. The obstructions give way and all occasion for remorse arising from excessive use of power disappears.Such a man's power does not show externally, yet it can move heavy loads, like a big cart whose real strength lies in its axle. The less that power is applied outwardly, the greater its effect."
         },
         {
           "poem": "Six in the fifth place means:\nLoses the goat with ease.\nNo remorse.",
           "expl": "The goat is noted for hardness outwardly and weakness within. Now the situation is such that everything is easy; there is no more resistance. One can give up a belligerent, stubborn way of acting and will not have to regret it."
+        },
+        {
+          "poem": "Six at the top means:\nA goat butts against a hedge.\nIt cannot go backward, it cannot go forward.\nNothing serves to further.\nIf one notes the difficulty, this brings good fortune.",
+          "expl": "If we venture too far we come to a deadlock, unable either to advance or to retreat and whatever we do merely serves to complicate things further. Such obstinacy leads to insuperable difficulties. But if, realizing the situation, we compose ourselves and decide not to continue, everything will right itself in time."
         }
       ]
     }
@@ -1617,6 +1737,14 @@
         {
           "poem": "Nine in the fourth place means:\nProgress like a hamster.\nPerseverance brings danger.",
           "expl": "In times of progress it is easy for strong men in the wrong places to amass great possessions. But such conduct shuns the light. And since times of progress are inevitably brought to the light, perseverance in such action always leads to danger."
+        },
+        {
+          "poem": "Six in the fifth place means:\nRemorse disappears.\nTake not gain and loss to heart.\nUndertakings bring good fortune.\nEverything serves to further.",
+          "expl": "The situation described here is that of one who, finding himself in an influential position in a time of progress, remains gentle and reserved. He might reproach himself for lack of energy in making the most of the propitiousness of the time and obtaining all possible advantage. However, this regret passes away. He must not take either loss or gain to heart; they are minor considerations. What matters much more is the fact that in this way he has assured himself of opportunities for successful and beneficent influence."
+        },
+        {
+          "poem": "Nine at the top means:\nMaking progress with the horns is permissible\nOnly for the purpose of punishing one’s own city.\nTo be conscious of danger brings good fortune.\nNo blame.\nPerseverance brings humiliation.",
+          "expl": "Making progress with lowered horns—i.e., acting on the offensive—is permissible, in times like those referred to here, only in dealing with the mistakes of one’s own people. Even then we must bear in mind that proceeding on the offensive may always be dangerous. In this way we avoid the mistakes that otherwise threaten, and succeed in what we set out to do. On the other hand, perseverance in such overenergetic behavior, especially toward persons with whom there is no close connection, will lead to humiliation."
         }
       ]
     }
@@ -1663,6 +1791,10 @@
         {
           "poem": "Six in the fifth place means:\nDarkening of the light as with Prince Chi.\nPerseverance furthers.",
           "expl": "Prince Chi lived at the court of the evil tyrant Chou Hsin, who, although not mentioned by name, furnished the historical example on which this whole situation is based. Prince Chi was a relative of the tyrant and could not withdraw from the court; therefore he concealed his true sentiments and feigned insanity. Although he was held a slave, he did not allow external misery to deflect him from his convictions.  This provides a teaching for those who cannot leave their posts in times of darkness. In order to escape danger, they need invincible perseverance of spirit and redoubled caution in their dealings with the world."
+        },
+        {
+          "poem": "Six at the top means:\nNot light but darkness.\nFirst he climbed up to heaven,\nThen he plunged into the depths of the earth.",
+          "expl": "Here the climax of the darkening is reached. The dark power at first held so high a place that it could wound all who were on the side of good and of the light. But in the end it perishes of its own darkness, for evil must itself fall at the very moment when it has wholly overcome the good, and thus consumed the energy to which it owed its duration."
         }
       ]
     }
@@ -1707,8 +1839,12 @@
           "expl": "It is upon the woman of the house that the well-being of the family depends. Well-being prevails when expenditures and income are soundly balanced. This leads to great good fortune. In the sphere of public life, this line refers to the faithful steward whose measures further the general welfare."
         },
         {
-          "poem": "Nine in the fifth place means:\nAs a king he approaches his family.\nFear not.\nGood fortune.",
+          "poem": "°Nine in the fifth place means:\nAs a king he approaches his family.\nFear not.\nGood fortune.",
           "expl": "A king is the symbol of a fatherly man who is richly endowed in mind. He does nothing to make himself feared; on the contrary, the whole family can trust him, because love governs their intercourse. His character of itself exercises the right influence."
+        },
+        {
+          "poem": "Nine at the top means:\nHis work commands respect.\nIn the end good fortune comes.",
+          "expl": "In the last analysis, order within the family depends on the character of the master of the house. If he cultivates his personality so that it works impressively through the force of inner truth, all goes well with the family. In a ruling position one must of his own accord assume responsibility."
         }
       ]
     }
@@ -1753,8 +1889,12 @@
           "expl": "If a man finds himself in a company of people from whom he is separated by an inner opposition, he becomes isolated. But if in such a situation a man meets someone who fundamentally by the very law of his being, is kin to him, and whom he can trust completely, he overcomes all the dangers of isolation. His will achieves its aim, and he becomes free of faults."
         },
         {
-          "poem": "Six in the fifth place means:\nRemorse disappears.\nThe companion bits his way through the wrappings.\nIf one goes to him,\nHow could it be a mistake?",
+          "poem": "°Six in the fifth place means:\nRemorse disappears.\nThe companion bits his way through the wrappings.\nIf one goes to him,\nHow could it be a mistake?",
           "expl": "Coming upon a sincere man, one fails to recognize him at first because of the general estrangement. However, he bites his way through the wrappings that are causing the separation. When such a companion thus reveals himself in his true character, it is one's duty to go to meet him and to work with him."
+        },
+        {
+          "poem": "Nine at the top means:\nIsolated through opposition,\nOne sees one’s companion as a pig covered with dirt,\nAs a wagon full of devils.\nFirst one draws a bow against him,\nThen one lays the bow aside.\nHe is not a robber; he will woo at the right time.\nAs one goes, rain falls; then good fortune comes.",
+          "expl": "Here the isolation is due to misunderstanding; it is brought about not by outer circumstances but by inner conditions. A man misjudges his best friends, taking them to be as unclean as a dirty pig and as dangerous as a wagon full of devils. He adopts an attitude of defense. But in the end, realizing his mistake, he lays aside the bow, perceiving that the other is approaching with the best intentions for the purpose of close union. Thus the tension is relieved. The union resolves the tension, just as falling rain relieves the sultriness preceding a thunderstorm. All goes well, for just when opposition reaches its climax it changes over to its antithesis."
         }
       ]
     }
@@ -1799,8 +1939,12 @@
           "expl": "This too describes a situation that cannot be managed single-handed. In such a case the direct way is not the shortest. If a person were to forge ahead on his own strength and without the necessary preparations, he would not find the support he needs and would realize too late that he has been mistaken in his calculations, inasmuch as the conditions on which he hoped he could rely would prove to be inadequate. In this case it is better, therefore, to hold back for the time being and to gather together trustworthy companions who can be counted upon for help in overcoming the obstructions."
         },
         {
-          "poem": "Nine in the fifth place means:\nIn the midst of the greatest obstructions,\nFriends come.",
+          "poem": "°Nine in the fifth place means:\nIn the midst of the greatest obstructions,\nFriends come.",
           "expl": "Here we see a man who is called to help in an emergency. He should not seek to evade the obstructions, no matter how dangerously they pile up before him. But because he is really called to the task, the power of his spirit is strong enough to attract helpers whom he can effectively organize, so that through the well-directed co-operation of all participants the obstruction is overcome."
+        },
+        {
+          "poem": "Six at the top means:\nGoing leads to obstructions,\nComing leads to great good fortune.\nIt furthers one to see the great man.",
+          "expl": "This refers to a man who has already left the world and its tumult behind him. When the time of obstructions arrives, it might seem that the simplest thing for him to do would be to turn his back upon the world and take refuge in the beyond. But this road is barred to him. He must not seek his own salvation and abandon the world to its adversity. Duty calls him back once more into the turmoil of life. Precisely because of his experience and inner freedom, he is able to create something both great and complete that brings good fortune. And it is favorable to see the great man in alliance with whom one can achieve the work of rescue."
         }
       ]
     }
@@ -1845,8 +1989,12 @@
           "expl": "In times of standstill it will happen that inferior people attach themselves to a superior man, and through force of daily habit they may grow very close to him and become indispensable, just as the big toe is indispensable to the foot because it makes walking easier. But when the time of deliverance draws near, with its call to deeds, a man must free himself from such chance acquaintances with whim he has no inner connection. For otherwise the friends who share his views, on whom he could really rely and together with whom he could accomplish something, mistrust him and stay away."
         },
         {
-          "poem": "Six in the fifth place means:\nIf only the superior man can deliver himself,\nIt brings good fortune.\nThus he proves to inferior men that he is in earnest.",
+          "poem": "°Six in the fifth place means:\nIf only the superior man can deliver himself,\nIt brings good fortune.\nThus he proves to inferior men that he is in earnest.",
           "expl": "Times of deliverance demand inner resolve. Inferior people cannot be driven off by prohibitions or any external means. If one desires to be rid of them, he must first break completely with them in his own mind; they will see for themselves that he is in earnest and will withdraw."
+        },
+        {
+          "poem": "Six at the top means:\nThe prince shoots at a hawk on a high wall.\nHe kills it. Everything serves to further.",
+          "expl": "The hawk on a high wall is the symbol of a powerful inferior in a high position who is hindering the deliverance. He withstands the force of inner influences, because he is hardened in his wickedness. He must be forcibly removed, and this requires appropriate means. Confucius says about this line:\n'The hawk is the object of the hunt; bow and arrow are the tools and means. The marksman is man (who must make proper use of the means to his end). The superior man contains the means in his own person. He bides his time and then acts. Why then should not everything go well? He acts and is free. Therefore all he has to do is to go forth, and he takes his quarry. This is how a man fares who acts after he has made ready the means.'"
         }
       ]
     }
