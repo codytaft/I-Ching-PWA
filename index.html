@@ -1,45 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>I-Ching</title>
+    <meta name="generator" content="BBEdit 11.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-	<meta charset="utf-8" />
-	<title>I-Ching</title>
-	<meta name="generator" content="BBEdit 11.0" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- APPLE ICONS -->
+    <link rel="apple-touch-icon" href="touch-icon-iphone.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="assets/images/icons/icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/images/icons/icon-192x192.png"
+    />
 
-	<!-- APPLE ICONS -->
-	<link rel="apple-touch-icon" href="touch-icon-iphone.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="assets/images/icons/icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="assets/images/icons/icon-192x192.png">
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="manifest" href="/manifest.json" />
+  </head>
 
-	<link rel="manifest" href="/manifest.json">
-
-</head>
-
-<body>
-	<main>
-		<header class="header">
-			<div class="header-row">
-				<h1>I-Ching</h1>
-			</div>
-		</header>
-		<section class="cast-area">
-			<input type="text" class="question" placeholder="Ask Question...">
-			<div class="hexagrams">
-				<div class="hexagram"></div>
-				<div class="arrows" hidden>&rArr;</div>
-				<div class="changedHexagram" hidden></div>
-			</div>
-			<button type="button" class="cast-btn">Cast</button>
-		</section>
-	</main>
-	<script src="scripts/yarrow-sort.js"></script>
-	<script src="scripts/display-hexagrams.js"></script>
-	<script src="scripts/main.js"></script>
-</body>
-
+  <body>
+    <main>
+      <header class="header">
+        <div class="header-row">
+          <h1>I-Ching</h1>
+        </div>
+      </header>
+      <section class="cast-area">
+        <input type="text" class="question" placeholder="Ask Question..." />
+        <div class="hexagrams">
+          <div class="hexagram"></div>
+          <div class="arrows" hidden>&rArr;</div>
+          <div class="changedHexagram" hidden></div>
+        </div>
+        <div class="reading">
+          <div class="nav-arrow nav-left">&lsaquo;</div>
+          <div class="reading-text"></div>
+          <div class="nav-arrow nav-right">&rsaquo;</div>
+        </div>
+        <button type="button" class="cast-btn">Cast</button>
+      </section>
+    </main>
+    <script src="scripts/yarrow-sort.js"></script>
+    <script src="scripts/display-hexagrams.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
 </html>
