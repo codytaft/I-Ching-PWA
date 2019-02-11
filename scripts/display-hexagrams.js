@@ -6,7 +6,9 @@ let noChange = true;
 $('.hexagrams').hide();
 
 $('.cast-btn').on('click', async e => {
-  $('.cast-btn').attr('disabled', 'disabled');
+  $('.cast-btn')
+    .hide()
+    .fadeOut(3000);
   $('.hexagrams').show();
   for (let i = 0; i < 6; i++) {
     lineCast();
@@ -40,10 +42,10 @@ changeHexagram = async hexagram => {
     let hexagramName = await determineHexagram(changedHexagram);
     changedHexagram.push(hexagramName);
     displayHexagrams(hexagram, changedHexagram);
-    // displayReading(hexagram, changedHexagram);
+    displayReading(hexagram, changedHexagram);
   } else {
     displayHexagrams(hexagram);
-    // displayReading(hexagram);
+    displayReading(hexagram);
   }
 };
 
@@ -80,7 +82,7 @@ displayHexagrams = (hexagram, changedHexagram) => {
           .addClass('pos' + (i + 1))
           .hide()
           .prependTo('.changedHexagram')
-          .fadeIn(3000);
+          .fadeIn(4000);
       }
       if (i === 6) {
         $(
@@ -91,29 +93,15 @@ displayHexagrams = (hexagram, changedHexagram) => {
           .addClass('hexName')
           .hide()
           .prependTo('.changedHexagram')
-          .fadeIn(3000);
+          .fadeIn(4000);
         $(`<div>${line.hexagramNumber}</div>`)
           .addClass('hexNum')
           .hide()
           .prependTo('.changedHexagram')
-          .fadeIn(3000);
+          .fadeIn(4000);
       }
     });
   }
-};
-
-displayReading = (hexagram, changedHexagram) => {
-  console.log(hexagram, changedHexagram);
-  $('.nav-arrow').css({
-    display: 'inline',
-    padding: '0 3rem',
-    'font-size': '5rem'
-  });
-
-  $('.reading-text').css({
-    display: 'inline-block',
-    width: '30rem'
-  });
 };
 
 determineHexagram = async hexagram => {
