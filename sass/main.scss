@@ -107,8 +107,27 @@ input {
   display: none;
 }
 
+#reading-text {
+  display: inline-block;
+  width: 40rem;
+  overflow: scroll;
+  height: 20rem;
+}
+
 .nav-arrow {
   display: none;
+}
+
+.nav-left {
+  padding-left: 20%;
+}
+.nav-right {
+  padding-right: 20%;
+}
+
+#nav-arrow {
+  padding-top: 5rem;
+  font-size: 5rem;
 }
 
 .cast-btn {
