@@ -20,6 +20,13 @@ createCarouselPages = (hexagram, changedHexagram) => {
       hexName: hexDetails.hexagramName,
       hexDescription: hexDetails.hexagramDescription,
       hexOracle: hexDetails.hexagramInterpretation.image.oracle
+    },
+    {
+      pageName: 'The Hexagram',
+      hexNum: hexDetails.hexagramNumber,
+      hexName: hexDetails.hexagramName,
+      hexDescription: hexDetails.hexagramDescription,
+      hexOracle: hexDetails.hexagramInterpretation.resume
     }
   ];
   // If Hexagram 1 or 2 and all sixes or nines
@@ -74,15 +81,6 @@ createCarouselPages = (hexagram, changedHexagram) => {
       pages.push(page);
     });
   }
-
-  // Add final page
-  pages.push({
-    pageName: 'The Hexagram',
-    hexNum: hexDetails.hexagramNumber,
-    hexName: hexDetails.hexagramName,
-    hexDescription: hexDetails.hexagramDescription,
-    hexOracle: hexDetails.hexagramInterpretation.resume
-  });
 
   // Add pages to readingPages array
   pages.forEach(page => {
