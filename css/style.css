@@ -45,7 +45,8 @@ input {
   width: 19rem; }
   input::placeholder {
     color: whitesmoke; }
-  input, input text-area {
+  input,
+  input text-area {
     background-color: #a3b2BF; }
   input:focus {
     outline: none; }
@@ -71,6 +72,16 @@ input {
   font-weight: 600;
   margin: auto 0;
   color: whitesmoke; }
+
+.reading {
+  display: flex;
+  justify-content: space-between; }
+
+.reading-text {
+  display: none; }
+
+.nav-arrow {
+  display: none; }
 
 .cast-btn {
   text-transform: uppercase;
