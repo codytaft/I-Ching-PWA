@@ -23,13 +23,55 @@ createCarouselPages = (hexagram, changedHexagram) => {
     }
   ];
   // If Hexagram 1 or 2 and all sixes or nines
-  if (changedHexagram && hexDetails.hexagramInterpretation.lines.length === 7) {
-    pages.push({
-      pageName: 'The Lines',
-      hexNum: hexDetails.hexagramNumber,
-      hexName: hexDetails.hexagramName,
-      hexDescription: hexDetails.hexagramDescription,
-      hexOracle: hexDetails.hexagramInterpretation.lines[6].poem
+  let lineChanges = 0;
+  hexagram.slice(0, 5).forEach(line => {
+    if (line.match(/old/gi)) {
+      lineChanges++;
+    }
+    if (changedHexagram && lineChanges === 6) {
+      console.log(lineChanges);
+      pages.push({
+        pageName: 'The Lines',
+        hexNum: hexDetails.hexagramNumber,
+        hexName: hexDetails.hexagramName,
+        hexDescription: hexDetails.hexagramDescription,
+        hexOracle: hexDetails.hexagramInterpretation.lines[6].poem
+      });
+    }
+  });
+
+  if (changedHexagram) {
+    let changedHexDetails = changedHexagram[6];
+    let changedHexPages = [
+      {
+        pageName: 'The Judgment',
+        hexNum: changedHexDetails.hexagramNumber,
+        hexName: changedHexDetails.hexagramName,
+        hexDescription: changedHexDetails.hexagramDescription,
+        hexOracle: changedHexDetails.hexagramInterpretation.oracle
+      },
+      {
+        pageName: 'The Image',
+        hexNum: changedHexDetails.hexagramNumber,
+        hexName: changedHexDetails.hexagramName,
+        hexDescription: changedHexDetails.hexagramDescription,
+        hexOracle: changedHexDetails.hexagramInterpretation.image.oracle
+      }
+    ];
+    hexagram.slice(0, 5).forEach((line, i) => {
+      if (line.includes('old')) {
+        pages.push({
+          pageName: 'The Lines',
+          hexNum: hexDetails.hexagramNumber,
+          hexName: hexDetails.hexagramName,
+          hexDescription: hexDetails.hexagramDescription,
+          hexOracle: hexDetails.hexagramInterpretation.lines[i].poem
+        });
+      }
+    });
+    // Add changed hex judgment and Image
+    changedHexPages.forEach(page => {
+      pages.push(page);
     });
   }
 
@@ -60,31 +102,11 @@ displayReading = ({ pageName, hexNum, hexName, hexDescription, hexOracle }) => {
   $('.reading-text')
     .fadeIn(4000)
     .attr('id', 'reading-text')
-    .html(`<h2>${hexNum}. <i>${hexName} / ${hexDescription}</i></h2>
+    .html(`<h2><i>${hexName} / ${hexDescription}</i></h2>
           <h3>${pageName}</h3>
           <p>${hexOracle}</p>`);
   renderDots();
 };
-
-function renderSlide({ title, description, tech, image, github, live }) {
-  const project = document.querySelector('.project');
-  const technologies = tech.join(' / ');
-  $('.reading-text').innerHTML = `
-    <h3>${title}</h3>
-    <p class="tech">${technologies}</p>
-    <div class="project-links">
-      <a href="${github}" target="_blank">
-        <i class="fab fa-github"></i>
-      </a>
-        <a href="${live}" target="_blank" class=${
-    live ? 'live-link' : 'hidden'
-  }>Live</a>
-    </div>
-    <p>${description}</p>
-    <img src="${image}" alt="${title}" />
-  `;
-  renderDots();
-}
 
 renderDots = () => {
   const dotString = readingPages

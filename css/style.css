@@ -84,16 +84,18 @@ input {
   display: inline-block;
   width: 35%;
   overflow: scroll;
-  height: 12rem; }
+  height: 12rem;
+  text-align: center;
+  text-justify: left; }
 
 .nav-arrow {
   display: none; }
 
 .nav-left {
-  padding-left: 20%; }
+  margin-left: 20%; }
 
 .nav-right {
-  padding-right: 20%; }
+  margin-right: 20%; }
 
 #nav-arrow {
   padding-top: 5rem;
