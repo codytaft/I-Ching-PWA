@@ -42,10 +42,10 @@ changeHexagram = async hexagram => {
     let hexagramName = await determineHexagram(changedHexagram);
     changedHexagram.push(hexagramName);
     displayHexagrams(hexagram, changedHexagram);
-    displayReading(hexagram, changedHexagram);
+    createCarouselPages(hexagram, changedHexagram);
   } else {
     displayHexagrams(hexagram);
-    displayReading(hexagram);
+    createCarouselPages(hexagram);
   }
 };
 
