@@ -6,109 +6,137 @@ $('.nav-right').on('click', () => {
 
 createCarouselPages = (hexagram, changedHexagram) => {
   let hexDetails = hexagram[6];
-  if (!changedHexagram) {
-    let pages = [
-      {
-        pageName: 'The Judgment',
+  let pages = [
+    {
+      pageName: 'The Judgment',
+      hexNum: hexDetails.hexagramNumber,
+      hexName: hexDetails.hexagramName,
+      hexDescription: hexDetails.hexagramDescription,
+      hexOracle: hexDetails.hexagramInterpretation.oracle
+    },
+    {
+      pageName: 'The Image',
+      hexNum: hexDetails.hexagramNumber,
+      hexName: hexDetails.hexagramName,
+      hexDescription: hexDetails.hexagramDescription,
+      hexOracle: hexDetails.hexagramInterpretation.image.oracle
+    }
+  ];
+  // If Hexagram 1 or 2 and all sixes or nines
+  let lineChanges = 0;
+  hexagram.slice(0, 5).forEach(line => {
+    if (line.match(/old/gi)) {
+      lineChanges++;
+    }
+    if (changedHexagram && lineChanges === 6) {
+      console.log(lineChanges);
+      pages.push({
+        pageName: 'The Lines',
         hexNum: hexDetails.hexagramNumber,
         hexName: hexDetails.hexagramName,
         hexDescription: hexDetails.hexagramDescription,
-        hexOracle: hexDetails.hexagramInterpretation.oracle
+        hexOracle: hexDetails.hexagramInterpretation.lines[6].poem
+      });
+    }
+  });
+
+  if (changedHexagram) {
+    let changedHexDetails = changedHexagram[6];
+    let changedHexPages = [
+      {
+        pageName: 'The Judgment',
+        hexNum: changedHexDetails.hexagramNumber,
+        hexName: changedHexDetails.hexagramName,
+        hexDescription: changedHexDetails.hexagramDescription,
+        hexOracle: changedHexDetails.hexagramInterpretation.oracle
       },
       {
         pageName: 'The Image',
-        hexNum: hexDetails.hexagramNumber,
-        hexName: hexDetails.hexagramName,
-        hexDescription: hexDetails.hexagramDescription,
-        hexOracle: hexDetails.hexagramInterpretation.image.oracle
-      },
-      {
-        pageName: 'The Hexagram',
-        hexNum: hexDetails.hexagramNumber,
-        hexName: hexDetails.hexagramName,
-        hexDescription: hexDetails.hexagramDescription,
-        hexOracle: hexDetails.hexagramInterpretation.resume
+        hexNum: changedHexDetails.hexagramNumber,
+        hexName: changedHexDetails.hexagramName,
+        hexDescription: changedHexDetails.hexagramDescription,
+        hexOracle: changedHexDetails.hexagramInterpretation.image.oracle
       }
     ];
-    pages.forEach(page => {
-      readingPages.push(page);
+    hexagram.slice(0, 5).forEach((line, i) => {
+      if (line.includes('old')) {
+        pages.push({
+          pageName: 'The Lines',
+          hexNum: hexDetails.hexagramNumber,
+          hexName: hexDetails.hexagramName,
+          hexDescription: hexDetails.hexagramDescription,
+          hexOracle: hexDetails.hexagramInterpretation.lines[i].poem
+        });
+      }
+    });
+    // Add changed hex judgment and Image
+    changedHexPages.forEach(page => {
+      pages.push(page);
     });
   }
+
+  // Add final page
+  pages.push({
+    pageName: 'The Hexagram',
+    hexNum: hexDetails.hexagramNumber,
+    hexName: hexDetails.hexagramName,
+    hexDescription: hexDetails.hexagramDescription,
+    hexOracle: hexDetails.hexagramInterpretation.resume
+  });
+
+  // Add pages to readingPages array
+  pages.forEach(page => {
+    readingPages.push(page);
+  });
+
+  displayReading(readingPages[0]);
 };
 
-displayReading = (hexagram, changedHexagram) => {
-  let hexDetails = hexagram[6];
-  let hexInterpretation = hexagram[6].hexagramInterpretation;
-  console.log(hexagram, changedHexagram);
+displayReading = ({ pageName, hexNum, hexName, hexDescription, hexOracle }) => {
+  // let hexDetails = hexagram[6];
+  // let hexInterpretation = hexagram[6].hexagramInterpretation;
   $('.nav-arrow')
     .fadeIn(4000)
     .attr('id', 'nav-arrow');
 
   $('.reading-text')
     .fadeIn(4000)
-    .attr('id', 'reading-text').html(`<h2>${hexDetails.hexagramNumber}. <i>${
-    hexDetails.hexagramName
-  } / ${hexDetails.hexagramDescription}</i></h2>
-    <h3>The Judgment</h3>
-          <p>${hexInterpretation.judgment}</p>`);
+    .attr('id', 'reading-text')
+    .html(`<h2><i>${hexName} / ${hexDescription}</i></h2>
+          <h3>${pageName}</h3>
+          <p>${hexOracle}</p>`);
+  renderDots();
 };
 
-function renderSlide({ title, description, tech, image, github, live }) {
-  const project = document.querySelector('.project');
-  const technologies = tech.join(' / ');
-  $('.reading-text').innerHTML = `
-    <h3>${title}</h3>
-    <p class="tech">${technologies}</p>
-    <div class="project-links">
-      <a href="${github}" target="_blank">
-        <i class="fab fa-github"></i>
-      </a>
-        <a href="${live}" target="_blank" class=${
-    live ? 'live-link' : 'hidden'
-  }>Live</a>
-    </div>
-    <p>${description}</p>
-    <img src="${image}" alt="${title}" />
-  `;
-  renderDots();
-}
-
-function renderDots() {
-  const dots = document.querySelector('.dots');
-  const dotString = projects
-    .map((project, i) => {
-      return i === currentSlide
+renderDots = () => {
+  const dotString = readingPages
+    .map((page, i) => {
+      return i === pageNumber
         ? `<i class="fas fa-circle"></i>`
         : `<i class="far fa-circle"></i>`;
     })
     .join('');
-  dots.innerHTML = dotString;
-}
+  $('.dots').html(dotString);
+};
 
-const left = document.querySelector('.left');
-let currentSlide = 0;
-
-left.addEventListener('click', slideBack);
+$('.nav-left').on('click', slideBack);
 function slideBack() {
-  if (currentSlide > 0) {
-    currentSlide--;
-    renderSlide(projects[currentSlide]);
-  } else if (currentSlide === 0) {
-    currentSlide = projects.length - 1;
-    renderSlide(projects[currentSlide]);
+  if (pageNumber > 0) {
+    pageNumber--;
+    displayReading(readingPages[pageNumber]);
+  } else if (pageNumber === 0) {
+    pageNumber = readingPages.length - 1;
+    displayReading(readingPages[pageNumber]);
   }
 }
 
-const right = document.querySelector('.right');
-right.addEventListener('click', slideForward);
+$('.nav-right').on('click', slideForward);
 function slideForward() {
-  if (currentSlide < projects.length - 1) {
-    currentSlide++;
-    renderSlide(projects[currentSlide]);
-  } else if (currentSlide === projects.length - 1) {
-    currentSlide = 0;
-    renderSlide(projects[currentSlide]);
+  if (pageNumber < readingPages.length - 1) {
+    pageNumber++;
+    displayReading(readingPages[pageNumber]);
+  } else if (pageNumber === readingPages.length - 1) {
+    pageNumber = 0;
+    displayReading(readingPages[pageNumber]);
   }
 }
-
-renderSlide(projects[0]);

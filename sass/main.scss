@@ -112,6 +112,8 @@ input {
   width: 35%;
   overflow: scroll;
   height: 12rem;
+  text-align: center;
+  text-justify: left;
 }
 
 .nav-arrow {
@@ -119,15 +121,19 @@ input {
 }
 
 .nav-left {
-  padding-left: 20%;
+  margin-left: 20%;
 }
 .nav-right {
-  padding-right: 20%;
+  margin-right: 20%;
 }
 
 #nav-arrow {
   padding-top: 5rem;
   font-size: 5rem;
+}
+
+.dots {
+  text-align: center;
 }
 
 .cast-btn {

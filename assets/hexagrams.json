@@ -1,15 +1,15 @@
 [
   {
     "number": 1,
-    "name": "Chien",
+    "name": "Ch'ien",
     "description": "The Creative",
     "trigrams": {
       "above": {
-        "title": "chien",
+        "title": "ch'ien",
         "description": "THE CREATIVE, HEAVEN"
       },
       "below": {
-        "title": "chien",
+        "title": "ch'ien",
         "description": "THE CREATIVE, HEAVEN"
       }
     },
@@ -709,7 +709,7 @@
   },
   {
     "number": 15,
-    "name": "Chien",
+    "name": "Ch'ien",
     "description": "Modesty",
     "trigrams": {
       "above": {
