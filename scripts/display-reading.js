@@ -31,7 +31,8 @@ createCarouselPages = (hexagram, changedHexagram) => {
   ];
   // If Hexagram 1 or 2 and all sixes or nines
   let lineChanges = 0;
-  hexagram.slice(0, 5).forEach(line => {
+  hexagram.slice(0, 6).forEach(line => {
+    console.log(line);
     if (line.match(/old/gi)) {
       lineChanges++;
     }
@@ -65,7 +66,8 @@ createCarouselPages = (hexagram, changedHexagram) => {
         hexOracle: changedHexDetails.hexagramInterpretation.image.oracle
       }
     ];
-    hexagram.slice(0, 5).forEach((line, i) => {
+    hexagram.slice(0, 6).forEach((line, i) => {
+      console.log(line);
       if (line.includes('old')) {
         pages.push({
           pageName: 'The Lines',
