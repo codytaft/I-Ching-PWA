@@ -1,8 +1,5 @@
 let pageNumber = 0;
 let readingPages = [];
-$('.nav-right').on('click', () => {
-  console.log('hi');
-});
 
 createCarouselPages = (hexagram, changedHexagram) => {
   let hexDetails = hexagram[6];
@@ -31,12 +28,11 @@ createCarouselPages = (hexagram, changedHexagram) => {
   ];
   // If Hexagram 1 or 2 and all sixes or nines
   let lineChanges = 0;
-  hexagram.slice(0, 5).forEach(line => {
+  hexagram.slice(0, 6).forEach(line => {
     if (line.match(/old/gi)) {
       lineChanges++;
     }
     if (changedHexagram && lineChanges === 6) {
-      console.log(lineChanges);
       pages.push({
         pageName: 'The Lines',
         hexNum: hexDetails.hexagramNumber,
@@ -65,7 +61,7 @@ createCarouselPages = (hexagram, changedHexagram) => {
         hexOracle: changedHexDetails.hexagramInterpretation.image.oracle
       }
     ];
-    hexagram.slice(0, 5).forEach((line, i) => {
+    hexagram.slice(0, 6).forEach((line, i) => {
       if (line.includes('old')) {
         pages.push({
           pageName: 'The Lines',
