@@ -108,7 +108,8 @@ input {
   font-size: 125%;
   padding: 0 2rem;
   overflow: scroll;
-  text-align: center; }
+  text-align: center;
+  max-height: 25rem; }
 
 .nav-arrow {
   display: none;
