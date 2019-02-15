@@ -35,12 +35,13 @@ h1 {
   border-radius: 3px;
   margin: 2rem 10%;
   padding: 2rem;
-  box-shadow: 2px 2px 0.8px black; }
+  box-shadow: 2px 2px 0.8px black;
+  background-image: linear-gradient(to bottom, #021526, #5b89a6 60%); }
 
 input {
   display: block;
   padding: 1rem;
-  margin: auto;
+  margin: 2rem auto;
   color: #222;
   font-size: 1.6rem;
   font-weight: 300;
@@ -58,17 +59,23 @@ input {
 .hexagrams {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  margin: 2rem auto;
-  width: 75%; }
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  align-items: center; }
 
 .hexagram-details-section {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-bottom: 1rem; }
 
 .hex-details {
+  font-size: 130%;
   width: 8rem;
   overflow-wrap: break-word; }
+
+.changed-hexagram-details {
+  display: none;
+  margin-left: 7rem; }
 
 .hexagram-lines-section {
   display: flex;
@@ -77,6 +84,9 @@ input {
 .hex-lines {
   width: 8rem; }
 
+.changed-hexagram-lines {
+  display: none; }
+
 .hexNum,
 .hexName {
   text-align: center; }
@@ -84,7 +94,7 @@ input {
 .arrows {
   font-size: 3rem;
   font-weight: 600;
-  margin: auto 0;
+  margin: auto 2rem;
   color: whitesmoke; }
 
 .reading {
@@ -95,11 +105,10 @@ input {
   display: none; }
 
 #reading-text {
-  display: inline-block;
-  width: 35%;
+  font-size: 125%;
+  padding: 0 2rem;
   overflow: scroll;
-  text-align: center;
-  text-justify: left; }
+  text-align: center; }
 
 .nav-arrow {
   display: none;
@@ -107,10 +116,10 @@ input {
   line-height: 50%; }
 
 .nav-left {
-  margin-left: 20%; }
+  margin-left: 10%; }
 
 .nav-right {
-  margin-right: 20%; }
+  margin-right: 10%; }
 
 .dots {
   display: none;
