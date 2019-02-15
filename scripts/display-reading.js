@@ -110,7 +110,10 @@ renderDots = () => {
         : `<i class="far fa-circle"></i>`;
     })
     .join('');
-  $('.dots').html(dotString);
+  $('.dots')
+    .hide()
+    .html(dotString)
+    .fadeIn(3000);
 };
 
 $('.nav-left').on('click', slideBack);

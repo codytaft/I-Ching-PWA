@@ -43,14 +43,18 @@ h1 {
 
 .cast-area {
   width: auto;
-  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin: 2rem 10%;
+  padding: 2rem;
+  box-shadow: 2px 2px 0.8px black;
 }
 
 input {
   display: block;
   padding: 1rem;
-  margin: 2rem auto 1.5rem auto;
-  color: $color-white;
+  margin: auto;
+  color: #222;
   font-size: 1.6rem;
   font-weight: 300;
   border-radius: 3px;
@@ -73,17 +77,29 @@ input {
 
 .hexagrams {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
-  margin: 4rem auto;
+  margin: 2rem auto;
   width: 75%;
+}
 
-  &.hexagram {
-    text-align: center;
-    font-size: 2rem;
-    padding-bottom: 1rem;
-    margin: 0 auto;
-  }
+.hexagram-details-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hex-details {
+  width: 8rem;
+  overflow-wrap: break-word;
+}
+
+.hexagram-lines-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hex-lines {
+  width: 8rem;
 }
 
 .hexNum,
@@ -111,13 +127,14 @@ input {
   display: inline-block;
   width: 35%;
   overflow: scroll;
-  height: 12rem;
   text-align: center;
   text-justify: left;
 }
 
 .nav-arrow {
   display: none;
+  font-size: 5rem;
+  line-height: 50%;
 }
 
 .nav-left {
@@ -127,12 +144,9 @@ input {
   margin-right: 20%;
 }
 
-#nav-arrow {
-  padding-top: 5rem;
-  font-size: 5rem;
-}
-
 .dots {
+  display: none;
+  margin-top: 2rem;
   text-align: center;
 }
 
