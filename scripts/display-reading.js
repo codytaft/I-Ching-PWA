@@ -111,9 +111,8 @@ renderDots = () => {
     })
     .join('');
   $('.dots')
-    .hide()
-    .html(dotString)
-    .fadeIn(3000);
+    .show()
+    .html(dotString);
 };
 
 $('.nav-left').on('click', slideBack);

@@ -72,7 +72,8 @@ displayHexagrams = (hexagram, changedHexagram) => {
     }
   });
   if (changedHexagram) {
-    // $('.changed-hexagram-lines').toggle();
+    $('.changed-hexagram-lines').toggle();
+    $('.changed-hexagram-details').toggle();
     $('.arrows')
       .hide()
       .fadeIn(3000);
