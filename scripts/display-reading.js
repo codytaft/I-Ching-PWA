@@ -98,7 +98,7 @@ displayReading = ({ pageName, hexNum, hexName, hexDescription, hexOracle }) => {
     .attr('id', 'reading-text')
     .html(`<h2><i>${hexName} / ${hexDescription}</i></h2>
           <h3>${pageName}</h3>
-          <p>${hexOracle}</p>`);
+          <p class="text">${hexOracle}</p>`);
   renderDots();
 };
 
