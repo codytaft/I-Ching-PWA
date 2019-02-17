@@ -1,15 +1,9 @@
 // THE LINES
-$old-yang: '===&nbsp;o&nbsp;===';       // --- o --- changing
-$old-yin: '====x====';                  // --- x --- changing
-$young-yang: '=========';               // ---------
+$old-yang: '===&nbsp;o&nbsp;==='; // --- o --- changing
+$old-yin: '====x===='; // --- x --- changing
+$young-yang: '========='; // ---------
 $young-yin: '===&nbsp;&nbsp;&nbsp;==='; // ---   ---
 
 // COLORS
-$color-primary-light: #a3b2BF;
-$color-primary: #6b98bf;
-$color-primary-medium: #5b89a6;
-$color-primary-dark: #021526;
-
-$color-white: whitesmoke;
-$color-black: #021526
-
+$color-black: rgba(30, 30, 30, 1);
+$color-white: rgba(191, 191, 191, 1);

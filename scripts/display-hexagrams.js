@@ -4,12 +4,18 @@ let changedHexagram = [];
 let noChange = true;
 
 $('.hexagrams').hide();
+$('.cast-area').hide();
 
 $('.cast-btn').on('click', async e => {
   $('.cast-btn')
     .hide()
     .fadeOut(3000);
   $('.hexagrams').show();
+  $('.cast-area')
+    .hide()
+    .toggle()
+    .show()
+    .fadeIn(7000);
   for (let i = 0; i < 6; i++) {
     lineCast();
     hexagram.push(hexagramLine);
