@@ -9,16 +9,17 @@ html {
   font-size: 61.5%; }
 
 body {
+  letter-spacing: 2px;
   font-family: 'Open Sans Condensed', sans-serif;
   box-sizing: border-box;
-  color: whitesmoke; }
+  color: #f5f5f5; }
 
 main {
-  background-image: linear-gradient(to bottom, #5b89a6, #021526);
+  background: #222;
   height: 100vh; }
 
 .header {
-  border-bottom: 1px solid whitesmoke;
+  border-bottom: 1px solid #f5f5f5;
   width: 80%;
   margin: 0 auto; }
 
@@ -30,29 +31,28 @@ h1 {
   padding: 1rem 0; }
 
 .cast-area {
+  display: none;
   width: auto;
-  border: 1px solid black;
+  border: 1px solid #f5f5f5;
   border-radius: 3px;
   margin: 2rem 10%;
-  padding: 2rem;
-  box-shadow: 2px 2px 0.8px black;
-  background-image: linear-gradient(to bottom, #021526, #5b89a6 60%); }
+  padding: 2rem; }
 
 input {
   display: block;
   padding: 1rem;
   margin: 2rem auto;
-  color: #222;
+  color: #f5f5f5;
   font-size: 1.6rem;
   font-weight: 300;
   border-radius: 3px;
-  border: 1px solid whitesmoke;
+  border: 1px solid #f5f5f5;
   width: 19rem; }
   input::placeholder {
-    color: whitesmoke; }
+    color: #777; }
   input,
   input text-area {
-    background-color: #a3b2BF; }
+    background-color: #222; }
   input:focus {
     outline: none; }
 
@@ -95,7 +95,7 @@ input {
   font-size: 3rem;
   font-weight: 600;
   margin: auto 2rem;
-  color: whitesmoke; }
+  color: #f5f5f5; }
 
 .reading {
   display: flex;
@@ -137,11 +137,11 @@ input {
   width: 19rem;
   padding: 1rem;
   margin: 1rem auto;
-  border: 1px solid whitesmoke;
-  background-color: #6b98bf;
+  border: 1px solid #f5f5f5;
+  background-color: #222;
   border-radius: 3px;
-  color: whitesmoke;
-  box-shadow: 0 1rem 2rem rgba(2, 21, 38, 0.2); }
+  color: #f5f5f5;
+  box-shadow: 0 1rem 2rem rgba(245, 245, 245, 0.2); }
   .cast-btn:hover {
     cursor: pointer; }
   .cast-btn::after {
@@ -150,7 +150,7 @@ input {
   .cast-btn:focus, .cast-btn:active {
     outline: none;
     transform: translateY(-1px);
-    box-shadow: 0 0.5rem 1rem rgba(2, 21, 38, 0.2); }
+    box-shadow: 0 0.5rem 1rem rgba(245, 245, 245, 0.2); }
   .cast-btn:disabled {
     color: grey; }
 
@@ -158,10 +158,10 @@ input {
   width: 8rem;
   margin: 0 auto; }
   .line.old-yang {
-    content: url(../assets/images/lines/old-yang.svg); }
+    content: url(../assets/images/lines/old-yang-white.svg); }
   .line.old-yin {
-    content: url(../assets/images/lines/old-yin.svg); }
+    content: url(../assets/images/lines/old-yin-white.svg); }
   .line.young-yang {
-    content: url(../assets/images/lines/young-yang.svg); }
+    content: url(../assets/images/lines/young-yang-white.svg); }
   .line.young-yin {
-    content: url(../assets/images/lines/young-yin.svg); }
+    content: url(../assets/images/lines/young-yin-white.svg); }
