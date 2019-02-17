@@ -43,7 +43,7 @@ h1 {
   flex-direction: column;
   justify-content: space-evenly;
   width: auto;
-  height: 75%;
+  height: 70%;
   border: 1px solid $color-white;
   border-radius: 3px;
   margin: 2rem 10%;
@@ -143,7 +143,7 @@ input {
 }
 
 .text {
-  margin-top: 1.5rem;
+  margin: 1.5rem 0;
   overflow: scroll;
   max-height: 20rem;
 
@@ -225,5 +225,24 @@ input {
   }
   &.young-yin {
     content: url(../assets/images/lines/young-yin-white.svg);
+  }
+}
+@media only screen and (max-height: 700px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (max-height: 600px) {
+  .line {
+    width: 7rem;
+  }
+
+  .text {
+    max-height: 7rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
   }
 }
