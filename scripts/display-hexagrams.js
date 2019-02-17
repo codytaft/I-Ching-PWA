@@ -12,8 +12,6 @@ $('.cast-btn').on('click', async e => {
     .fadeOut(3000);
   $('.hexagrams').show();
   $('.cast-area')
-    .hide()
-    .toggle()
     .show()
     .fadeIn(7000);
   for (let i = 0; i < 6; i++) {
