@@ -117,7 +117,7 @@ input {
 .text {
   margin: 1.5rem 0;
   overflow: scroll;
-  max-height: 20rem; }
+  max-height: 10rem; }
   .text::-webkit-scrollbar {
     -webkit-appearance: none;
     width: 2px;
