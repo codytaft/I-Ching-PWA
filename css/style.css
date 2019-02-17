@@ -31,8 +31,11 @@ h1 {
   padding: 1rem 0; }
 
 .cast-area {
-  display: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   width: auto;
+  height: 75%;
   border: 1px solid #bfbfbf;
   border-radius: 3px;
   margin: 2rem 10%;
@@ -60,7 +63,6 @@ input {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-bottom: 2rem;
   align-items: center; }
 
 .hexagram-details-section {
@@ -99,7 +101,9 @@ input {
 
 .reading {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  height: auto;
+  flex-direction: row; }
 
 .reading-text {
   display: none; }
@@ -107,9 +111,20 @@ input {
 #reading-text {
   font-size: 125%;
   padding: 0 2rem;
-  overflow: scroll;
   text-align: center;
   max-height: 25rem; }
+
+.text {
+  margin-top: 1.5rem;
+  overflow: scroll;
+  max-height: 20rem; }
+  .text::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 2px;
+    height: 0rem; }
+  .text::-webkit-scrollbar-thumb {
+    margin-top: 10rem;
+    background-color: rgba(191, 191, 191, 0.5); }
 
 .nav-arrow {
   display: none;
@@ -124,7 +139,6 @@ input {
 
 .dots {
   display: none;
-  margin-top: 2rem;
   text-align: center; }
 
 .cast-btn {

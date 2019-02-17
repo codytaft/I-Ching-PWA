@@ -39,18 +39,15 @@ h1 {
 }
 
 .cast-area {
-  display: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   width: auto;
+  height: 75%;
   border: 1px solid $color-white;
   border-radius: 3px;
   margin: 2rem 10%;
   padding: 2rem;
-  // box-shadow: 2px 5px 0.8px $color-white;
-  // background-image: linear-gradient(
-  //   to bottom,
-  //   $color-primary-dark,
-  //   $color-primary-medium 60%
-  // );
 }
 
 input {
@@ -82,7 +79,6 @@ input {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-bottom: 2rem;
   align-items: center;
 }
 
@@ -131,6 +127,8 @@ input {
 .reading {
   display: flex;
   justify-content: space-between;
+  height: auto;
+  flex-direction: row;
 }
 
 .reading-text {
@@ -140,11 +138,25 @@ input {
 #reading-text {
   font-size: 125%;
   padding: 0 2rem;
-  overflow: scroll;
   text-align: center;
   max-height: 25rem;
 }
 
+.text {
+  margin-top: 1.5rem;
+  overflow: scroll;
+  max-height: 20rem;
+
+  &::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 2px;
+    height: 0rem;
+  }
+  &::-webkit-scrollbar-thumb {
+    margin-top: 10rem;
+    background-color: rgba(191, 191, 191, 0.5);
+  }
+}
 .nav-arrow {
   display: none;
   font-size: 5rem;
@@ -160,7 +172,6 @@ input {
 
 .dots {
   display: none;
-  margin-top: 2rem;
   text-align: center;
 }
 
