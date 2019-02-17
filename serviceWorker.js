@@ -1,6 +1,7 @@
 const staticAssets = [
   './',
   './assets/lines/',
+  './assets/hexagrams.json',
   './css/style.css',
   './scripts/main.js',
   './scripts/yarrow-sort.js',
@@ -20,7 +21,6 @@ self.addEventListener('fetch', event => {
   } else {
     event.respondWith(networkFirst(request));
   }
-
 });
 
 async function cacheData(request) {
@@ -37,7 +37,5 @@ async function networkFirst(request) {
     return response;
   } catch (error) {
     return await cache.match(request);
-
   }
 }
-
