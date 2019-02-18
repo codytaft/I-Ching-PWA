@@ -4,7 +4,6 @@ let changedHexagram = [];
 let noChange = true;
 
 $('.hexagrams').hide();
-$('.cast-area').hide();
 
 $('.lightbulb-icon').on('click', e => {
   //change from black bkg to white
@@ -67,8 +66,11 @@ $('.cast-btn').on('click', async e => {
     .fadeOut(3000);
   $('.hexagrams').show();
   $('.cast-area')
-    .hide()
+    .css({ display: 'flex' })
     .fadeIn(5000);
+
+  // $('.cast-area')
+  //   .hide()
   for (let i = 0; i < 6; i++) {
     lineCast();
     hexagram.push(hexagramLine);
@@ -113,7 +115,7 @@ displayHexagrams = (hexagram, changedHexagram) => {
     if (i < 6) {
       $(line)
         .addClass('pos' + (i + 1))
-        // .hide()
+        .hide()
         .prependTo('.hexagram-lines')
         .fadeIn(3000);
     }
@@ -142,7 +144,7 @@ displayHexagrams = (hexagram, changedHexagram) => {
           .addClass('pos' + (i + 1))
           .hide()
           .prependTo('.changed-hexagram-lines')
-          .fadeIn(4000);
+          .fadeIn(3000);
       }
       if (i === 6) {
         $(
