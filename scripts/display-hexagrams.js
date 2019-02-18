@@ -6,6 +6,59 @@ let noChange = true;
 $('.hexagrams').hide();
 $('.cast-area').hide();
 
+$('.lightbulb-icon').on('click', e => {
+  //change from black bkg to white
+  if ($('.lightbulb-icon').hasClass('fas')) {
+    document.documentElement.style.setProperty(
+      '--color-1',
+      'rgb(191, 191, 191)'
+    );
+    document.documentElement.style.setProperty('--color-2', 'rgb(30, 30, 30)');
+    document.documentElement.style.setProperty(
+      '--old-yang',
+      'url(../assets/images/lines/old-yang-black.svg)'
+    );
+    document.documentElement.style.setProperty(
+      '--old-yin',
+      'url(../assets/images/lines/old-yin-black.svg)'
+    );
+    document.documentElement.style.setProperty(
+      '--young-yin',
+      'url(../assets/images/lines/young-yin-black.svg)'
+    );
+    document.documentElement.style.setProperty(
+      '--young-yang',
+      'url(../assets/images/lines/young-yang-black.svg)'
+    );
+    $('.lightbulb-icon').toggleClass('fas far');
+
+    //change from white bkg to black
+  } else if ($('.lightbulb-icon').hasClass('far')) {
+    document.documentElement.style.setProperty(
+      '--color-2',
+      'rgb(191, 191, 191)'
+    );
+    document.documentElement.style.setProperty('--color-1', 'rgb(30, 30, 30)');
+    document.documentElement.style.setProperty(
+      '--old-yang',
+      'url(../assets/images/lines/old-yang-white.svg)'
+    );
+    document.documentElement.style.setProperty(
+      '--old-yin',
+      'url(../assets/images/lines/old-yin-white.svg)'
+    );
+    document.documentElement.style.setProperty(
+      '--young-yin',
+      'url(../assets/images/lines/young-yin-white.svg)'
+    );
+    document.documentElement.style.setProperty(
+      '--young-yang',
+      'url(../assets/images/lines/young-yang-white.svg)'
+    );
+    $('.lightbulb-icon').toggleClass('far fas');
+  }
+});
+
 $('.cast-btn').on('click', async e => {
   $('.cast-btn')
     .hide()
