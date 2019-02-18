@@ -191,6 +191,18 @@ input {
   .cast-btn:disabled {
     color: grey; }
 
+.hexagram-lines-section.black > .hex-lines > .line.old-yang {
+  content: url(../assets/images/lines/old-yang-black.svg); }
+
+.hexagram-lines-section.black > .hex-lines > .line.old-yin {
+  content: url(../assets/images/lines/old-yin-black.svg); }
+
+.hexagram-lines-section.black > .hex-lines > .line.young-yang {
+  content: url(../assets/images/lines/young-yang-black.svg); }
+
+.hexagram-lines-section.black > .hex-lines > .line.young-yin {
+  content: url(../assets/images/lines/young-yin-black.svg); }
+
 .line {
   width: 8rem;
   margin: 0 auto; }
