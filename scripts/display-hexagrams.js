@@ -64,14 +64,14 @@ $('.cast-btn').on('click', async e => {
   $('.cast-btn')
     .hide()
     .fadeOut(3000);
+
   $('.hexagrams').show();
+
   $('.cast-area')
     .css({ display: 'flex' })
     .hide()
     .fadeIn(5000);
 
-  // $('.cast-area')
-  //   .hide()
   for (let i = 0; i < 6; i++) {
     lineCast();
     hexagram.push(hexagramLine);
