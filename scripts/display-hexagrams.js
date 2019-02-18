@@ -14,20 +14,20 @@ $('.lightbulb-icon').on('click', e => {
       'rgb(191, 191, 191)'
     );
     document.documentElement.style.setProperty('--color-2', 'rgb(30, 30, 30)');
-    document.documentElement.style.setProperty(
-      '--old-yang',
+    $('.old-yang').css(
+      'content',
       'url(../assets/images/lines/old-yang-black.svg)'
     );
-    document.documentElement.style.setProperty(
-      '--old-yin',
+    $('.old-yin').css(
+      'content',
       'url(../assets/images/lines/old-yin-black.svg)'
     );
-    document.documentElement.style.setProperty(
-      '--young-yin',
+    $('.young-yin').css(
+      'content',
       'url(../assets/images/lines/young-yin-black.svg)'
     );
-    document.documentElement.style.setProperty(
-      '--young-yang',
+    $('.young-yang').css(
+      'content',
       'url(../assets/images/lines/young-yang-black.svg)'
     );
     $('.lightbulb-icon').toggleClass('fas far');
@@ -39,20 +39,20 @@ $('.lightbulb-icon').on('click', e => {
       'rgb(191, 191, 191)'
     );
     document.documentElement.style.setProperty('--color-1', 'rgb(30, 30, 30)');
-    document.documentElement.style.setProperty(
-      '--old-yang',
+    $('.old-yang').css(
+      'content',
       'url(../assets/images/lines/old-yang-white.svg)'
     );
-    document.documentElement.style.setProperty(
-      '--old-yin',
+    $('.old-yin').css(
+      'content',
       'url(../assets/images/lines/old-yin-white.svg)'
     );
-    document.documentElement.style.setProperty(
-      '--young-yin',
+    $('.young-yin').css(
+      'content',
       'url(../assets/images/lines/young-yin-white.svg)'
     );
-    document.documentElement.style.setProperty(
-      '--young-yang',
+    $('.young-yang').css(
+      'content',
       'url(../assets/images/lines/young-yang-white.svg)'
     );
     $('.lightbulb-icon').toggleClass('far fas');
@@ -111,7 +111,7 @@ displayHexagrams = (hexagram, changedHexagram) => {
     if (i < 6) {
       $(line)
         .addClass('pos' + (i + 1))
-        .hide()
+        // .hide()
         .prependTo('.hexagram-lines')
         .fadeIn(3000);
     }
