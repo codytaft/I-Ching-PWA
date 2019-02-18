@@ -152,8 +152,7 @@ input {
 .nav-arrow {
   display: none;
   font-size: 5rem;
-  line-height: 50%;
-  cursor: pointer; }
+  line-height: 50%; }
 
 .nav-left {
   margin-left: 10%; }
