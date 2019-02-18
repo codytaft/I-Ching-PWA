@@ -241,6 +241,21 @@ input {
   }
 }
 
+.hexagram-lines-section.black > .hex-lines > .line {
+  &.old-yang {
+    content: url(../assets/images/lines/old-yang-black.svg);
+  }
+  &.old-yin {
+    content: url(../assets/images/lines/old-yin-black.svg);
+  }
+  &.young-yang {
+    content: url(../assets/images/lines/young-yang-black.svg);
+  }
+  &.young-yin {
+    content: url(../assets/images/lines/young-yin-black.svg);
+  }
+}
+
 .line {
   width: 8rem;
   margin: 0 auto;
@@ -258,6 +273,8 @@ input {
     content: url(../assets/images/lines/young-yin-white.svg);
   }
 }
+
+
 
 @media only screen and (max-height: 700px) {
   html {
