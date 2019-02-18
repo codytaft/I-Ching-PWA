@@ -33,7 +33,9 @@ main {
   top: 2rem;
   left: 2rem;
   font-size: 2rem;
-  cursor: pointer; }
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent; }
 
 .fas {
   color: var(--color-2); }
@@ -152,7 +154,10 @@ input {
 .nav-arrow {
   display: none;
   font-size: 5rem;
-  line-height: 50%; }
+  line-height: 50%;
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent; }
 
 .nav-left {
   margin-left: 10%; }
