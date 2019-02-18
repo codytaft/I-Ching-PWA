@@ -9,6 +9,7 @@ $('.cast-area').hide();
 $('.lightbulb-icon').on('click', e => {
   //change from black bkg to white
   if ($('.lightbulb-icon').hasClass('fas')) {
+    $('.hexagram-lines-section').addClass('black');
     document.documentElement.style.setProperty(
       '--color-1',
       'rgb(191, 191, 191)'
@@ -30,6 +31,7 @@ $('.lightbulb-icon').on('click', e => {
       'content',
       'url(../assets/images/lines/young-yang-black.svg)'
     );
+
     $('.lightbulb-icon').toggleClass('fas far');
 
     //change from white bkg to black
