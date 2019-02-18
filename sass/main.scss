@@ -279,7 +279,11 @@ input {
   }
 }
 
-
+@media only screen and (max-height: 750px) {
+  .line {
+    width: 7rem;
+  }
+}
 
 @media only screen and (max-height: 700px) {
   html {
@@ -288,10 +292,6 @@ input {
 }
 
 @media only screen and (max-height: 600px) {
-  .line {
-    width: 7rem;
-  }
-
   .text {
     max-height: 7rem;
   }
