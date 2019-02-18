@@ -147,12 +147,13 @@ input {
     height: 0rem; }
   .text::-webkit-scrollbar-thumb {
     margin-top: 10rem;
-    background-color: rgba(191, 191, 191, 0.5); }
+    background-color: #646464; }
 
 .nav-arrow {
   display: none;
   font-size: 5rem;
-  line-height: 50%; }
+  line-height: 50%;
+  cursor: pointer; }
 
 .nav-left {
   margin-left: 10%; }
@@ -178,7 +179,7 @@ input {
   background-color: var(--color-1);
   border-radius: 3px;
   color: var(--color-2);
-  box-shadow: 0 1rem 2rem rgba(var(--color-2), 0.2); }
+  box-shadow: 0.2rem 0.5rem 2rem rgba(100, 100, 100, 0.3); }
   .cast-btn:hover {
     cursor: pointer; }
   .cast-btn::after {
@@ -186,8 +187,8 @@ input {
     opacity: 0; }
   .cast-btn:focus, .cast-btn:active {
     outline: none;
-    transform: translateY(-1px);
-    box-shadow: 0 0.5rem 1rem rgba(var(--color-2), 0.2); }
+    transform: translateY(1px);
+    box-shadow: 0 0.2rem 1rem rgba(100, 100, 100, 0.3); }
   .cast-btn:disabled {
     color: grey; }
 
@@ -195,13 +196,13 @@ input {
   width: 8rem;
   margin: 0 auto; }
   .line.old-yang {
-    content: var(--old-yang); }
+    content: url(../assets/images/lines/old-yang-white.svg); }
   .line.old-yin {
-    content: var(--old-yin); }
+    content: url(../assets/images/lines/old-yin-white.svg); }
   .line.young-yang {
-    content: var(--young-yang); }
+    content: url(../assets/images/lines/young-yang-white.svg); }
   .line.young-yin {
-    content: var(--young-yin); }
+    content: url(../assets/images/lines/young-yin-white.svg); }
 
 @media only screen and (max-height: 700px) {
   html {
