@@ -67,6 +67,7 @@ $('.cast-btn').on('click', async e => {
   $('.hexagrams').show();
   $('.cast-area')
     .css({ display: 'flex' })
+    .hide()
     .fadeIn(5000);
 
   // $('.cast-area')
