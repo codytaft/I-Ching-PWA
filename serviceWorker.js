@@ -1,5 +1,6 @@
 const staticAssets = [
   './',
+  './index.html',
   './assets/images/lines',
   './assets/hexagrams.json',
   './css/style.css',
