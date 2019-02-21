@@ -5,7 +5,7 @@
   "background_color": "rgb(30, 30, 30)",
   "display": "standalone",
   "orientation": "portrait",
-  "Scope": ".",
+  "Scope": "/",
   "start_url": "/index.html",
   "icons": [
     {
