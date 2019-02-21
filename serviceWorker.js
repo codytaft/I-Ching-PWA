@@ -1,11 +1,12 @@
 const staticAssets = [
   './',
-  './assets/lines/',
+  './assets/images/lines',
   './assets/hexagrams.json',
   './css/style.css',
   './scripts/main.js',
   './scripts/yarrow-sort.js',
-  './scripts/display-hexagrams.js'
+  './scripts/display-hexagrams.js',
+  './scripts/display-reading.js'
 ];
 
 self.addEventListener('install', async event => {
